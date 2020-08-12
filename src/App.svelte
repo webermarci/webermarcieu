@@ -9,8 +9,7 @@
   }
 </style>
 
-<main
-  class="text-white text-lg tracking-wide animate__animated animate__fadeIn">
+<main class="text-white text-lg tracking-wide">
 
   <div class="max-w-2xl p-8 sm:p-12 md:p-16 lg:p-24">
     <div class="mb-12">
