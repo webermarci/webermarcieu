@@ -1,0 +1,9 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background: #202020;
+}
