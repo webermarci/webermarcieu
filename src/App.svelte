@@ -1,11 +1,12 @@
 <script>
   import Skills from "./Skills.svelte";
+  import Dots from "./Dots.svelte";
 </script>
 
 <style>
   .logo {
     zoom: 0.5;
-    stroke-width: 3px;
+    stroke-width: 4px;
   }
 </style>
 
@@ -110,5 +111,7 @@
       <line x1="75" y1="70" x2="105" y2="135" />
     </svg>
   </div>
+
+  <Dots />
 
 </main>
