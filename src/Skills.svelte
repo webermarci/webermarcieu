@@ -1,4 +1,4 @@
-<div class="flex flex-wrap mb-10">
+<div class="flex flex-wrap mb-6 lg:mb-10">
   <svg
     class="w-8 md:w-10 mr-3"
     role="img"

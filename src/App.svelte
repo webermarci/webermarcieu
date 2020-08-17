@@ -6,7 +6,7 @@
 <style>
   .logo {
     zoom: 0.5;
-    stroke-width: 4px;
+    stroke-width: 0.3rem;
   }
 </style>
 
