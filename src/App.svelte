@@ -12,8 +12,8 @@
 
 <main class="text-white text-lg tracking-wide">
 
-  <div class="max-w-2xl p-8 sm:p-12 md:p-16 lg:p-24">
-    <div class="mb-12">
+  <div class="max-w-2xl p-8 sm:p-12 md:p-16 lg:p-24 lg:ml-32">
+    <div class="mb-10">
       <h1 class="text-xl tracking-wider">Wéber Marci</h1>
       <a
         class="text-green-500 hover:text-green-300 transition-colors
@@ -58,14 +58,21 @@
     <p class="mb-2">Things I like to work with:</p>
     <Skills />
 
-    <p class="mb-10">
+    <p class="mb-8">
       Check out my projects:
       <a
         class="text-green-500 hover:text-green-300 transition-colors
         duration-300"
         target="blank"
         href="https://neural-flappybird.netlify.app/">
-        Neural Flappy Bird
+        Neural Flappy Bird,
+      </a>
+      <a
+        class="text-green-500 hover:text-green-300 transition-colors
+        duration-300"
+        target="blank"
+        href="https://github.com/webermarci/webermarcieu">
+        Source code of this site
       </a>
     </p>
 
