@@ -1,6 +1,6 @@
-<div class="flex flex-wrap gap-2 lg:gap-3 mb-10">
+<div class="flex flex-wrap mb-10">
   <svg
-    class="w-8 md:w-10"
+    class="w-8 md:w-10 mr-3"
     role="img"
     fill="currentColor"
     viewBox="0 0 24 24"
@@ -34,7 +34,7 @@
       1.425-1.227 1.484-2.232z" />
   </svg>
   <svg
-    class="w-6 md:w-8"
+    class="w-6 md:w-8 mr-3"
     role="img"
     fill="currentColor"
     viewBox="0 0 24 24"
@@ -58,7 +58,7 @@
       3.55a4.9 4.9 0 0 1-1.16.51z" />
   </svg>
   <svg
-    class="w-6 md:w-8"
+    class="w-6 md:w-8 mr-3"
     role="img"
     fill="currentColor"
     viewBox="0 0 24 24"
@@ -81,7 +81,7 @@
       1.521-1.418 4.362-4.91 3.388-10.599z" />
   </svg>
   <svg
-    class="w-6 md:w-8"
+    class="w-6 md:w-8 mr-3"
     role="img"
     fill="currentColor"
     xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@
       2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z" />
   </svg>
   <svg
-    class="w-6 md:w-8"
+    class="w-6 md:w-8 mr-3"
     role="img"
     fill="currentColor"
     viewBox="0 0 24 24"
@@ -126,7 +126,7 @@
       d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z" />
   </svg>
   <svg
-    class="w-6 md:w-8"
+    class="w-6 md:w-8 mr-3"
     role="img"
     fill="currentColor"
     viewBox="0 0 24 24"
@@ -178,7 +178,7 @@
       29.114 29.114 0 0 0 2.197 3.798z" />
   </svg>
   <svg
-    class="w-6 md:w-8"
+    class="w-6 md:w-8 mr-3"
     role="img"
     fill="currentColor"
     viewBox="0 0 24 24"
