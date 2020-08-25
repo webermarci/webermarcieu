@@ -33,7 +33,7 @@
         class="text-green-500 hover:text-green-300 transition-colors
         duration-300"
         target="blank"
-        href="https://www.rollet.hu">
+        href="https://www.rolletpay.com">
         Rollet.
       </a>
       I was an early bird in the company, so I had the opportunity to work on
@@ -45,7 +45,7 @@
         class="text-green-500 hover:text-green-300 transition-colors
         duration-300"
         target="blank"
-        href="https://www.rollet.hu">
+        href="https://www.rolletpay.com">
         Rollet
       </a>
       was definitely the IoT system we designed and developed.
