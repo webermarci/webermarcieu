@@ -11,13 +11,12 @@
 </style>
 
 <main class="text-white text-lg tracking-wide">
-
   <div class="max-w-2xl p-8 sm:p-12 md:p-16 lg:p-24 lg:ml-32">
     <div class="mb-10">
-      <h1 class="text-xl tracking-wider">Wéber Marci</h1>
+      <h1 class="text-2xl tracking-wider">Wéber Marci</h1>
       <a
         class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
+          duration-300"
         href="mailto:webermarton@gmail.com">
         webermarton@gmail.com
       </a>
@@ -27,28 +26,28 @@
       I'm a software developer with great emphasis on performance and
       perfection.
     </p>
+
+    <p class="mb-6">I'm currently looking for new opportunities.</p>
+
     <p class="mb-6">
-      For the past few years I've made drive throughs even more seamless at
-      <a
+      For the past few years I'd made drive throughs even more seamless at <a
         class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
+          duration-300"
         target="blank"
         href="https://www.rolletpay.com">
         Rollet.
-      </a>
-      I was an early bird in the company, so I had the opportunity to work on
+      </a> I was an early bird in the company, so I had the opportunity to work on
       almost everything software related.
     </p>
+
     <p class="mb-8">
-      My best work at
-      <a
+      My best work at <a
         class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
+          duration-300"
         target="blank"
         href="https://www.rolletpay.com">
         Rollet
-      </a>
-      was definitely the IoT system we designed and developed.
+      </a> was definitely the IoT system we designed and developed.
     </p>
 
     <p class="mb-8">
@@ -59,17 +58,12 @@
     <Skills />
 
     <p class="mb-8">
-      Check out my projects:
+      Check out my projects: <a class="text-green-500 hover:text-green-300
+          transition-colors duration-300" target="blank" href="https://neural-flappybird.netlify.app/"> Neural
+        Flappy Bird, </a>
       <a
         class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
-        target="blank"
-        href="https://neural-flappybird.netlify.app/">
-        Neural Flappy Bird,
-      </a>
-      <a
-        class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
+          duration-300"
         target="blank"
         href="https://github.com/webermarci/webermarcieu">
         Source code of this site
@@ -77,25 +71,17 @@
     </p>
 
     <p>
-      You can find me on
+      You can find me on <a class="text-green-500 hover:text-green-300
+          transition-colors duration-300" target="blank" href="https://www.linkedin.com/in/webermarton/"> LinkedIn, </a>
       <a
         class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
-        target="blank"
-        href="https://www.linkedin.com/in/webermarton/">
-        LinkedIn,
-      </a>
-      <a
-        class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
+          duration-300"
         target="blank"
         href="https://github.com/webermarci">
         GitHub
-      </a>
-      and you can get in touch via
-      <a
+      </a> and you can get in touch via <a
         class="text-green-500 hover:text-green-300 transition-colors
-        duration-300"
+          duration-300"
         href="mailto:webermarton@gmail.com">
         email.
       </a>
@@ -120,5 +106,4 @@
   </div>
 
   <Dots />
-
 </main>
