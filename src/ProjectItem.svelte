@@ -4,7 +4,7 @@
   export let url;
 </script>
 
-<div class="bg-white bg-opacity-25 p-3 rounded-lg">
+<div class="bg-white bg-opacity-10 p-3 rounded-lg">
   <div class="flex justify-between items-center mb-2">
     <h1>{title}</h1>
     <a

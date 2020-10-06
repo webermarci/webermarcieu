@@ -11,3 +11,7 @@ body {
 a {
   color: #48bb78;
 }
+
+.bg-opacity-10 {
+  --bg-opacity: 0.1;
+}
