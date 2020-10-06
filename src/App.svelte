@@ -26,7 +26,7 @@
 <main class="text-white text-lg tracking-wide">
   <div class="p-8 sm:p-12 md:p-16 xl:p-24 xl:ml-32">
     <div class="max-w-6xl grid lg:grid-cols-2 gap-5">
-      <div class="max-w-lg mb-8">
+      <div class="max-w-lg mb-6">
         <div class="mb-8">
           <h1 class="text-2xl tracking-wider">Wéber Marci</h1>
           <a
