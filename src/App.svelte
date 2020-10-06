@@ -4,21 +4,29 @@
   import Logo from "./Logo.svelte";
   import ProjectItem from "./ProjectItem.svelte";
 
+  import JsIcon from "./icons/JsIcon.svelte";
+  import SvelteIcon from "./icons/SvelteIcon.svelte";
+  import P5Icon from "./icons/P5Icon.svelte";
+  import TailwindIcon from "./icons/TailwindIcon.svelte";
+
   const projects = [
     {
       title: "Neural Flappy Bird",
-      description: "AI written in Javascript to play the game.",
+      description: "A neural network that learns to play the game.",
       url: "https://neural-flappybird.netlify.app/",
+      stackIcons: [JsIcon, P5Icon],
     },
     {
       title: "Timato",
-      description: "It is just a pomodoro timer Svelte PWA application.",
+      description: "A simple pomodoro timer progressive web app.",
       url: "https://timato.netlify.app/",
+      stackIcons: [SvelteIcon, TailwindIcon],
     },
     {
       title: "Portfolio site",
-      description: "The source code of this site. It is written in Svelte.",
+      description: "The source code of this website.",
       url: "https://github.com/webermarci/webermarcieu",
+      stackIcons: [SvelteIcon, TailwindIcon],
     },
   ];
 </script>
@@ -116,12 +124,11 @@
         </p>
       </div>
 
-      <div class="max-w-lg mb-8">
+      <div class="max-w-md mb-8">
         <h1 class="text-2xl tracking-wider mb-1">Projects</h1>
-
         <div class="grid md:grid-cols-2 gap-3">
-          {#each projects as { title, description, url }}
-            <ProjectItem {title} {description} {url} />
+          {#each projects as { title, description, url, stackIcons }}
+            <ProjectItem {title} {description} {url} {stackIcons} />
           {/each}
         </div>
       </div>

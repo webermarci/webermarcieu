@@ -2,11 +2,20 @@
   export let title;
   export let description;
   export let url;
+  export let stackIcons;
 </script>
 
-<div class="bg-white bg-opacity-10 p-3 rounded-lg">
-  <div class="flex justify-between items-center mb-2">
-    <h1>{title}</h1>
+<div class="bg-white bg-opacity-15 p-3 rounded-lg">
+  <h1 class="mb-2">{title}</h1>
+  <p class="text-sm mb-3">{description}</p>
+
+  <div class="flex justify-between items-center">
+    <div class="flex">
+      {#each stackIcons as icon}
+        <svelte:component this={icon} styleClass="h-5 w-5 mr-2" />
+      {/each}
+    </div>
+
     <a
       class="flex items-center text-green-500 hover:text-green-300 transition-colors duration-300"
       href={url}
@@ -28,6 +37,4 @@
       </svg>
     </a>
   </div>
-
-  <p class="text-sm mb-1">{description}</p>
 </div>
