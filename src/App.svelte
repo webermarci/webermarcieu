@@ -23,6 +23,22 @@
   ];
 </script>
 
+<style>
+  main {
+    animation: fade ease 1s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+</style>
+
 <main class="text-white text-lg tracking-wide">
   <div class="p-8 sm:p-12 md:p-16 xl:p-24 xl:ml-32">
     <div class="max-w-6xl grid lg:grid-cols-2 gap-5">

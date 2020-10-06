@@ -4,7 +4,7 @@
     coords.push({
       x: Math.floor(Math.random() * window.outerWidth),
       y: Math.floor(Math.random() * window.outerHeight),
-      r: Math.floor(Math.random() * 3)
+      r: Math.floor(Math.random() * 3),
     });
   }
 </script>
@@ -28,7 +28,7 @@
   }
 
   svg > circle {
-    animation: fade ease 5s;
+    animation: fade ease 3s;
   }
 
   @keyframes orbit {
