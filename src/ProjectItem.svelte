@@ -5,7 +5,7 @@
   export let stackIcons;
 </script>
 
-<div class="bg-white bg-opacity-15 p-3 rounded-lg">
+<div class="bg-white bg-opacity-10 p-3 rounded-lg">
   <h1 class="mb-2">{title}</h1>
   <p class="text-sm mb-3">{description}</p>
 

@@ -31,19 +31,13 @@
   ];
 </script>
 
-<style>
+<style global lang="postcss">
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
   main {
     animation: fade ease 1s;
-  }
-
-  @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-    }
   }
 </style>
 

@@ -27,7 +27,7 @@
     animation-timing-function: linear;
   }
 
-  svg > circle {
+  .container {
     animation: fade ease 3s;
   }
 
@@ -40,20 +40,12 @@
       transform: rotate(360deg);
     }
   }
-
-  @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-    }
-  }
 </style>
 
-<svg>
-  {#each coords as { x, y, r }, i}
-    <circle fill="#fff" cx={x} cy={y} {r} />
-  {/each}
-</svg>
+<div class="container">
+  <svg>
+    {#each coords as { x, y, r }, i}
+      <circle fill="#fff" cx={x} cy={y} {r} />
+    {/each}
+  </svg>
+</div>

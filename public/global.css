@@ -12,6 +12,12 @@ a {
   color: #48bb78;
 }
 
-.bg-opacity-15 {
-  --bg-opacity: 0.15;
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
