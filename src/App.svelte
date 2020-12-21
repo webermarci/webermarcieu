@@ -1,4 +1,6 @@
 <script>
+  import TailwindCSS from "./TailwindCSS.svelte";
+
   import Skills from "./Skills.svelte";
   import Dots from "./Dots.svelte";
   import Logo from "./Logo.svelte";
@@ -31,11 +33,7 @@
   ];
 </script>
 
-<style global lang="postcss">
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-
+<style>
   main {
     animation: fade ease 1s;
   }
@@ -133,3 +131,4 @@
 
   <Dots />
 </main>
+<TailwindCSS />
