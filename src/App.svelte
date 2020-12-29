@@ -33,9 +33,33 @@
   ];
 </script>
 
-<style>
+<style global>
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Rubik", sans-serif;
+  }
+
+  body {
+    background: #202020;
+  }
+
+  a {
+    color: #48bb78;
+  }
+
   main {
     animation: fade ease 1s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 </style>
 
@@ -128,7 +152,7 @@
 
     <Logo />
   </div>
-
-  <Dots />
 </main>
+<Dots />
+
 <TailwindCSS />

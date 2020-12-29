@@ -1,5 +1,6 @@
 <script>
   const coords = [];
+
   for (let i = 0; i < 100; i++) {
     coords.push({
       x: Math.floor(Math.random() * window.outerWidth),
@@ -11,20 +12,11 @@
 
 <style>
   svg {
-    width: 100vw;
-    height: 100vh;
-
-    opacity: 0.3;
-
-    position: fixed;
-    top: 0;
     z-index: -1;
-
     animation-name: orbit;
     animation-duration: 420s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
   }
 
   .container {
@@ -43,7 +35,7 @@
 </style>
 
 <div class="container">
-  <svg>
+  <svg class="h-screen w-screen fixed top-0 opacity-30 ease-linear">
     {#each coords as { x, y, r }, i}
       <circle fill="#fff" cx={x} cy={y} {r} />
     {/each}
