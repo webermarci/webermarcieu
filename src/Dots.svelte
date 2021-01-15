@@ -10,6 +10,14 @@
   }
 </script>
 
+<div class="container">
+  <svg class="h-screen w-screen fixed top-0 opacity-30 ease-linear">
+    {#each coords as { x, y, r }, i}
+      <circle fill="#fff" cx={x} cy={y} {r} />
+    {/each}
+  </svg>
+</div>
+
 <style>
   svg {
     z-index: -1;
@@ -33,11 +41,3 @@
     }
   }
 </style>
-
-<div class="container">
-  <svg class="h-screen w-screen fixed top-0 opacity-30 ease-linear">
-    {#each coords as { x, y, r }, i}
-      <circle fill="#fff" cx={x} cy={y} {r} />
-    {/each}
-  </svg>
-</div>
