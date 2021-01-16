@@ -30,7 +30,6 @@
         Previously I was making an HR software system at Ulyssys.
     </p>
 
-    <p>Things I like to work with:</p>
     <Skills />
 
     <p>
