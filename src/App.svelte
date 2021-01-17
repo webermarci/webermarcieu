@@ -7,13 +7,13 @@
 </script>
 
 <main class="p-8 sm:p-12 md:p-16 xl:p-24 xl:ml-32">
-	<div class="max-w-6xl lg:grid lg:grid-cols-2 lg:gap-5">
+	<div class="max-w-6xl grid gap-5 grid-cols-1 lg:grid-cols-2">
 		<div class="max-w-lg">
 			<Header />
 			<Intro />
 		</div>
 
-		<div class="max-w-md mb-8 lg:mb-0">
+		<div class="max-w-md">
 			<Projects />
 		</div>
 	</div>
@@ -22,6 +22,26 @@
 <TailwindCSS />
 
 <style>
+	:global(*) {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-family: "Rubik", sans-serif;
+	}
+
+	:global(body) {
+		background: #202020;
+	}
+
+	@keyframes -global-fade {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
 	main {
 		@apply text-white;
 		@apply text-lg;

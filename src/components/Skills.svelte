@@ -1,4 +1,4 @@
-<section>
+<div>
     <svg
         role="img"
         fill="currentColor"
@@ -159,14 +159,12 @@
         <title>Vercel icon</title>
         <path d="M24 22.525H0l12-21.05 12 21.05z" />
     </svg>
-</section>
+</div>
 
 <style>
-    section {
+    div {
         @apply flex;
         @apply flex-wrap;
-        @apply mb-10;
-        @apply mt-2;
         @apply -ml-1;
     }
 
