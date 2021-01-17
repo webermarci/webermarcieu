@@ -249,9 +249,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001173:
-  version "1.0.30001177"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001177.tgz#2c3b384933aafda03e29ccca7bb3d8c3389e1ece"
-  integrity sha512-6Ld7t3ifCL02jTj3MxPMM5wAYjbo4h/TAQGFTgv1inihP1tWnWp8mxxT4ut4JBEHLbpFXEXJJQ119JCJTBkYDw==
+  version "1.0.30001178"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001178.tgz#3ad813b2b2c7d585b0be0a2440e1e233c6eabdbc"
+  integrity sha512-VtdZLC0vsXykKni8Uztx45xynytOi71Ufx9T8kHptSw9AL4dpqailUJJHavttuzUe1KYuBYtChiWv+BAb7mPmQ==
 
 chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -1050,9 +1050,9 @@ supports-color@^7.0.0, supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 svelte-check@^1.0.0:
-  version "1.1.27"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.1.27.tgz#ca02d00497f75879cc8311695d84a84b69c94f84"
-  integrity sha512-ashkoqmzOFXe+bI50RvciE2+RBwU+NmjLJeDc72DmWrNjLVj+f3oJcRp0nIeCGeEi4qHCXNGFJg2lzQdUHkT8g==
+  version "1.1.28"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.1.28.tgz#f7ef1cff9a0b05368880c6a4a523cdc9c1edeb1a"
+  integrity sha512-jp1i8JImIwyH8gp2G9nLZ1+HXUgxPbuuT4StzeAvHdQ27b0u8XANoODcjl2w15i1J33EiH4S4CE9M3o9kau4cg==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
