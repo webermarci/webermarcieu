@@ -29,15 +29,16 @@
             url: "https://github.com/webermarci/webermarcieu",
         },
         {
-            title: "Svelte.js & Tailwind",
-            description: "My take on the Svelte and Tailwind template.",
-            url: "https://github.com/webermarci/svelte-tailwind-template",
-        },
-        {
-            title: "Svelte.ts & Tailwind",
-            description: "Simliar to the previous one, but with Typescript.",
+            title: "Svelte & Tailwind",
+            description: "My take on the Svelte + TS + Tailwind template.",
             url:
                 "https://github.com/webermarci/svelte-typescript-tailwind-template",
+        },
+        {
+            title: "Sapper & Tailwind",
+            description: "Simliar to the previous one, but with Sapper.",
+            url:
+                "https://github.com/webermarci/sapper-typescript-tailwind-template",
         },
     ];
 </script>
