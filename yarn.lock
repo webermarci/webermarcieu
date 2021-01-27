@@ -2247,11 +2247,7 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-<<<<<<< HEAD
-rollup@^2.38.0:
-=======
 rollup@^2.34.0, rollup@^2.35.1:
->>>>>>> Add Snowpack
   version "2.38.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.38.0.tgz#57942d5a10826cb12ed1f19c261f774efa502d2d"
   integrity sha512-ay9zDiNitZK/LNE/EM2+v5CZ7drkB2xyDljvb1fQJCGnq43ZWRkhxN145oV8GmoW1YNi4sA/1Jdkr2LfawJoXw==
@@ -2418,26 +2414,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-<<<<<<< HEAD
-svelte-check@^1.1.29:
-  version "1.1.29"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.1.29.tgz#388c20229ea1b20281c727479270eb84da35281f"
-  integrity sha512-hqOLl3yn+rVStXozUuSJ0FmyzigeeOKEPZbY5KnrIJIihnDKxWgoBdRUbaJ3uqecMISnyyKs0C2BHSYBBf7aeA==
-  dependencies:
-    chalk "^4.0.0"
-    chokidar "^3.4.1"
-    glob "^7.1.6"
-    import-fresh "^3.2.1"
-    minimist "^1.2.5"
-    source-map "^0.7.3"
-    svelte-preprocess "^4.0.0"
-    typescript "*"
-=======
 svelte-hmr@^0.12.1:
   version "0.12.5"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.12.5.tgz#afbdd44daaf5eca901727af2f80571855d9e9985"
   integrity sha512-AEPtbwF6h+B5jI/aQhvk61wXrW6bxOGQecI/GmRd+LCvg+s4P0VQ3Xseg18foAM6ZemBZrGCRCopeZZS4+X7cg==
->>>>>>> Add Snowpack
 
 svelte-preprocess@^4.0.8, svelte-preprocess@^4.6.0:
   version "4.6.3"
@@ -2453,8 +2433,6 @@ svelte@^3.32.0:
   version "3.32.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.32.0.tgz#06d7dcdf65e62a708c74231f7099569df43e3af6"
   integrity sha512-+EA3qfKDG0uB16s7m1z9Nc1o01G7YC4eq1cnHOzCy+fKsvGAJrjhjBIM3zCW2eZUu639UbHQElaOPQWUjBN3Yw==
-<<<<<<< HEAD
-=======
 
 table-layout@^1.0.1:
   version "1.0.1"
@@ -2465,7 +2443,6 @@ table-layout@^1.0.1:
     deep-extend "~0.6.0"
     typical "^5.2.0"
     wordwrapjs "^4.0.0"
->>>>>>> Add Snowpack
 
 tailwindcss@^2.0.2:
   version "2.0.2"
