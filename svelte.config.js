@@ -1,4 +1,7 @@
 const autoPreprocess = require('svelte-preprocess');
+const cssnano = require('cssnano');
+
+const prod = process.env.NODE_ENV === 'production';
 
 module.exports = {
     preprocess: autoPreprocess({
@@ -6,7 +9,13 @@ module.exports = {
             script: 'typescript',
         },
         postcss: {
-            plugins: [require("tailwindcss"), require("autoprefixer")],
+            plugins: [
+                require("tailwindcss"),
+                ...prod ? [
+                    require("autoprefixer"),
+                    cssnano({ preset: 'default' })
+                ] : []
+            ],
         },
     }),
 };

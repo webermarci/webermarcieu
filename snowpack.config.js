@@ -9,22 +9,14 @@ module.exports = {
         '@snowpack/plugin-dotenv',
         '@snowpack/plugin-typescript',
     ],
-    routes: [
-        /* Enable an SPA Fallback in development: */
-        // {"match": "routes", "src": ".*", "dest": "/index.html"},
-    ],
+    routes: [],
     optimize: {
         bundle: true,
         minify: true,
         treeshake: true,
+        target: "es2020",
     },
-    packageOptions: {
-        /* ... */
-    },
-    devOptions: {
-        /* ... */
-    },
-    buildOptions: {
-        /* ... */
-    },
+    packageOptions: {},
+    devOptions: {},
+    buildOptions: {},
 };
