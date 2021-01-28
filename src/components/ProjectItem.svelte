@@ -19,6 +19,7 @@
         @apply rounded-xl;
         @apply transition-colors;
         @apply duration-500;
+        @apply z-10;
     }
 
     section:hover {
