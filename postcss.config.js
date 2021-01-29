@@ -4,9 +4,9 @@ const prod = process.env.NODE_ENV === 'production';
 
 module.exports = {
     plugins: [
-        require("tailwindcss"),
+        require('tailwindcss'),
         ...prod ? [
-            require("autoprefixer"),
+            require('autoprefixer'),
             cssnano({ preset: 'default' })
         ] : []
     ],

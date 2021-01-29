@@ -4,7 +4,7 @@ module.exports = {
     purge: {
         enabled: prod,
         content: [
-            "./src/**/*.svelte",
+            './src/**/*.svelte',
         ]
     },
     theme: {
