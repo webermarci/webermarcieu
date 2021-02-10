@@ -2059,11 +2059,7 @@ svelte-hmr@^0.12.1:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.12.5.tgz#afbdd44daaf5eca901727af2f80571855d9e9985"
   integrity sha512-AEPtbwF6h+B5jI/aQhvk61wXrW6bxOGQecI/GmRd+LCvg+s4P0VQ3Xseg18foAM6ZemBZrGCRCopeZZS4+X7cg==
 
-<<<<<<< HEAD
 svelte-preprocess@^4.6.0, svelte-preprocess@^4.6.7:
-=======
-svelte-preprocess@^4.6.0, svelte-preprocess@^4.6.6:
->>>>>>> yarn upgrade
   version "4.6.7"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.7.tgz#5cf8d411eb3f91f413873c55ae07ea8210a6f61d"
   integrity sha512-cAndD5+of9jc7WxrBqOozjTmF+Nv4VU04DEnj6Uvl8ejvW5YrermOSFLV7f4ZRW+kBHKfzV+ZZAiGRLK+zJ2Ww==
@@ -2135,17 +2131,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-<<<<<<< HEAD
 typescript@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.4.tgz#f058636e2f4f83f94ddaae07b20fd5e14598432f"
-  integrity sha512-+Uru0t8qIRgjuCpiSPpfGuhHecMllk5Zsazj5LZvVsEStEjmIRRBZe+jHjGQvsgS7M1wONy2PQXd67EMyV6acg==
-=======
-typescript@^4.0.0:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.5.tgz#123a3b214aaff3be32926f0d8f1f6e704eb89a72"
   integrity sha512-6OSu9PTIzmn9TCDiovULTnET6BgXtDYL4Gg4szY+cGsc3JP1dQL8qvE8kShTRx1NIw4Q9IBHlwODjkjWEtMUyA==
->>>>>>> yarn upgrade
 
 uniq@^1.0.1:
   version "1.0.1"
