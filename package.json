@@ -16,7 +16,7 @@
     "postcss-cli": "^8.3.1",
     "snowpack": "^3.0.1",
     "svelte": "^3.32.2",
-    "svelte-preprocess": "^4.6.6",
+    "svelte-preprocess": "^4.6.7",
     "tailwindcss": "^2.0.3",
     "typescript": "^4.1.4"
   }
