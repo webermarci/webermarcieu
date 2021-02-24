@@ -14,31 +14,31 @@
             url: "https://neural-flappybird.netlify.app/",
         },
         {
+            title: "Portfolio Site",
+            description: "The source code of this website.",
+            url: "https://github.com/webermarci/webermarcieu",
+        },
+        {
             title: "Timato",
             description: "A simple pomodoro timer progressive web app.",
             url: "https://timato.netlify.app/",
         },
         {
-            title: "go-pipe-parser",
+            title: "Svelte Template",
+            description: "Svelte + TS + Snowpack + Tailwind template.",
+            url:
+                "https://github.com/webermarci/svelte-snowpack-tailwind-typescript-template",
+        },
+        {
+            title: "Go Pipe Parser",
             description: "A go library to help parse unix pipes.",
             url: "https://github.com/webermarci/go-pipe-parser",
         },
         {
-            title: "Portfolio site",
-            description: "The source code of this website.",
-            url: "https://github.com/webermarci/webermarcieu",
-        },
-        {
-            title: "Svelte & Tailwind",
-            description: "My take on the Svelte + TS + Tailwind template.",
-            url:
-                "https://github.com/webermarci/svelte-typescript-tailwind-template",
-        },
-        {
-            title: "Sapper & Tailwind",
-            description: "Simliar to the previous one, but with Sapper.",
-            url:
-                "https://github.com/webermarci/sapper-typescript-tailwind-template",
+            title: "Svelte Store Fetcher",
+            description:
+                "A svelte library that helps with fetching and caching.",
+            url: "https://github.com/webermarci/svelte-store-fetcher",
         },
     ];
 </script>

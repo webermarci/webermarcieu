@@ -33,6 +33,7 @@
     p {
         @apply text-sm;
         @apply mb-1;
+        @apply select-none;
     }
 
     a {

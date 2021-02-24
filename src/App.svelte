@@ -23,8 +23,8 @@
 
 <style>
 	:global(*) {
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
+		@apply antialiased;
+		@apply subpixel-antialiased;
 		font-family: "Rubik", sans-serif;
 	}
 
