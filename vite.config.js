@@ -6,7 +6,6 @@ module.exports = defineConfig(({ command, mode }) => {
     return {
         plugins: [svelte()],
         build: {
-            sourcemap: true,
             minify: isProduction
         }
     }
