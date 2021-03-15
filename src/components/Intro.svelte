@@ -21,14 +21,14 @@
         <p>
             For the past few years I had made drive throughs even more seamless
             at
-            <a target="blank" href="https://www.rolletpay.com">Rollet</a>. I was
-            an early bird at the company, so I had the opportunity to work on
+            <a target="blank" href="https://www.rollet.hu/">Rollet</a>. I was an
+            early bird at the company, so I had the opportunity to work on
             almost everything software related.
         </p>
 
         <p>
             My best work at
-            <a target="blank" href="https://www.rolletpay.com">Rollet</a>
+            <a target="blank" href="https://www.rollet.hu/">Rollet</a>
             was definitely the IoT system we designed and developed.
         </p>
     </section>
