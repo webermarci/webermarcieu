@@ -4,6 +4,12 @@ module.exports = {
     preprocess: autoPreprocess({
         defaults: {
             script: 'typescript',
-        }
+        },
+        postcss: {
+            plugins: [
+                require("@tailwindcss/jit"),
+                require("autoprefixer")
+            ],
+        },
     }),
 };
