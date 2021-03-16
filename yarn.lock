@@ -856,9 +856,9 @@ svelte-check@^1.2.5:
     typescript "*"
 
 svelte-hmr@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.13.0.tgz#77b03879dfa9d92072e31698e426a6e3c81798d8"
-  integrity sha512-P7oHUgV9k87ZegcomUwMzkQ/JkeUTOMJ4tXPkyEdgHozEQEraYHkpJuPtVlN8fNY+gVAlRUaohsD3Ipiql5lDw==
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.13.1.tgz#94e718d0ca2440322046f55097408c919ffe00fe"
+  integrity sha512-dv71eRBhtb/Q0I9db8ss2DjualeFFwEQQ97jpIUWJeX3W/xfFm7FZEWUa+92q5wPXvTZglN2mC+X4nzBuBVXcg==
 
 svelte-preprocess@^4.0.0, svelte-preprocess@^4.6.9:
   version "4.6.9"
