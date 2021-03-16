@@ -15,7 +15,7 @@
     "postcss": "^8.2.8",
     "svelte": "^3.35.0",
     "svelte-check": "^1.2.5",
-    "svelte-hmr": "^0.12.9",
+    "svelte-hmr": "^0.13.0",
     "svelte-preprocess": "^4.6.9",
     "tailwindcss": "^2.0.3",
     "tslib": "^2.1.0",
