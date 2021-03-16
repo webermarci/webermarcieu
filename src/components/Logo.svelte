@@ -5,7 +5,8 @@
     height="140"
     stroke-linecap="round"
     stroke="currentColor"
-    stroke-width="0.3rem">
+    stroke-width="0.3rem"
+>
     <line x1="5" y1="5" x2="35" y2="70" />
     <line x1="35" y1="70" x2="5" y2="135" />
     <line x1="35" y1="70" x2="55" y2="35" />
