@@ -1,5 +1,6 @@
 <script lang="ts">
-    import TailwindCss from "./TailwindCss.svelte";
+    import "./global.css";
+
     import Dots from "./components/Dots.svelte";
     import Header from "./components/Header.svelte";
     import Intro from "./components/Intro.svelte";
@@ -19,7 +20,6 @@
     </div>
 </main>
 <Dots />
-<TailwindCss />
 
 <style>
     :global(*) {

@@ -6,11 +6,6 @@ module.exports = {
             script: "typescript",
             style: "postcss",
         },
-        postcss: {
-            plugins: [
-                require("@tailwindcss/jit"),
-                require("autoprefixer")
-            ],
-        }
+        postcss: true
     })
 }
