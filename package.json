@@ -1,26 +1,21 @@
 {
-  "name": "webermarcieu",
-  "version": "5.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "validate": "svelte-check"
-  },
-  "devDependencies": {
-    "@svitejs/vite-plugin-svelte": "^0.11.0",
-    "@tailwindcss/jit": "^0.1.0",
-    "@tsconfig/svelte": "^1.0.10",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "postcss-load-config": "^3.0.1",
-    "svelte": "^3.35.0",
-    "svelte-check": "^1.2.5",
-    "svelte-hmr": "^0.13.0",
-    "svelte-preprocess": "^4.6.9",
-    "tailwindcss": "^2.0.3",
-    "tslib": "^2.1.0",
-    "typescript": "^4.2.3",
-    "vite": "^2.1.1"
-  }
+    "name": "webermarcieu",
+    "version": "5.1.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "devDependencies": {
+        "@svitejs/vite-plugin-svelte": "^0.11.1",
+        "@tailwindcss/jit": "^0.1.1",
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.8",
+        "postcss-load-config": "^3.0.1",
+        "svelte": "^3.35.0",
+        "svelte-preprocess": "^4.6.9",
+        "tailwindcss": "^2.0.3",
+        "typescript": "^4.2.3",
+        "vite": "^2.1.1"
+    }
 }

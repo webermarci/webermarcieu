@@ -1,10 +1,10 @@
 <script lang="ts">
     import "./global.css";
 
-    import Dots from "./components/Dots.svelte";
-    import Header from "./components/Header.svelte";
-    import Intro from "./components/Intro.svelte";
-    import Projects from "./components/Projects.svelte";
+    import Dots from "./lib/Dots.svelte";
+    import Header from "./lib/Header.svelte";
+    import Intro from "./lib/Intro.svelte";
+    import Projects from "./lib/Projects.svelte";
 </script>
 
 <main class="p-8 sm:p-12 md:p-16 xl:p-24 xl:ml-32">
