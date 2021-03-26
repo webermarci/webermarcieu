@@ -14,8 +14,8 @@
 <style>
     section {
         @apply p-3;
-        @apply bg-opacity-5;
         @apply bg-white;
+        @apply bg-opacity-5;
         @apply rounded-xl;
         @apply transition-colors;
         @apply duration-500;
