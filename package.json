@@ -2,9 +2,10 @@
     "name": "webermarcieu",
     "version": "5.1.0",
     "scripts": {
-        "dev": "vite",
+        "prebuild": "test \"$CI\" = true && npx pnpm install --store=node_modules/.pnpm-store || echo skiping pnpm install",
         "build": "vite build",
-        "serve": "vite preview"
+        "serve": "vite preview",
+        "dev": "vite"
     },
     "devDependencies": {
         "@svitejs/vite-plugin-svelte": "^0.11.1",
