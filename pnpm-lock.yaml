@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': ^1.0.0-next.6
+  '@sveltejs/vite-plugin-svelte': ^1.0.0-next.7
   autoprefixer: ^10.2.5
   postcss: ^8.2.10
   postcss-load-config: ^3.0.1
@@ -12,7 +12,7 @@ specifiers:
   vite: ^2.1.5
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.6_svelte@3.37.0+vite@2.1.5
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.7_svelte@3.37.0+vite@2.1.5
   autoprefixer: 10.2.5_postcss@8.2.10
   postcss: 8.2.10
   postcss-load-config: 3.0.1
@@ -79,8 +79,8 @@ packages:
       picomatch: 2.2.3
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.6_svelte@3.37.0+vite@2.1.5:
-    resolution: {integrity: sha512-P+skZslGT+zPXRH9SlEu21LXuFpkQITRcvQb/NRpZHrxj04VDRbuKwksOfq+vDHO/K4HWioXIAQoQnJ3oomItw==}
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.7_svelte@3.37.0+vite@2.1.5:
+    resolution: {integrity: sha512-ENvKYY36jrvFP7h1G87k5uOoEh5UM1m8n40J2duqV/R3wHnxfW81SCR1aXo+5CVU8Prm3/jtS4TWs8CUTqO1fw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       svelte: ^3.37.0
@@ -101,8 +101,8 @@ packages:
       - supports-color
     dev: true
 
-  /@types/node/14.14.39:
-    resolution: {integrity: sha512-Qipn7rfTxGEDqZiezH+wxqWYR8vcXq5LRpZrETD19Gs4o8LbklbmqotSUsMU+s5G3PJwMRDfNEYoxrcBwIxOuw==}
+  /@types/node/14.14.41:
+    resolution: {integrity: sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -116,7 +116,7 @@ packages:
   /@types/sass/1.16.0:
     resolution: {integrity: sha512-2XZovu4NwcqmtZtsBR5XYLw18T8cBCnU2USFHTnYLLHz9fkhnoEMoDsqShJIOFsFhn5aJHjweiUUdTrDGujegA==}
     dependencies:
-      '@types/node': 14.14.39
+      '@types/node': 14.14.41
     dev: true
 
   /acorn-node/1.8.2:
@@ -173,7 +173,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.16.4
-      caniuse-lite: 1.0.30001208
+      caniuse-lite: 1.0.30001209
       colorette: 1.2.2
       fraction.js: 4.0.13
       normalize-range: 0.1.2
@@ -209,7 +209,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001208
+      caniuse-lite: 1.0.30001209
       colorette: 1.2.2
       electron-to-chromium: 1.3.717
       escalade: 3.1.1
@@ -231,8 +231,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite/1.0.30001208:
-    resolution: {integrity: sha512-OE5UE4+nBOro8Dyvv0lfx+SRtfVIOM9uhKqFmJeUbGriqhhStgp1A0OyBpgy3OUF8AhYCT+PVwPC1gMl2ZcQMA==}
+  /caniuse-lite/1.0.30001209:
+    resolution: {integrity: sha512-2Ktt4OeRM7EM/JaOZjuLzPYAIqmbwQMNnYbgooT+icoRGrKOyAxA1xhlnotBD1KArRSPsuJp3TdYcZYrL7qNxA==}
     dev: true
 
   /chalk/2.4.2:
