@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.8
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.9
   autoprefixer: 10.2.5
   postcss: 8.2.13
   postcss-load-config: 3.0.1
@@ -12,7 +12,7 @@ specifiers:
   vite: 2.2.3
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.8_svelte@3.37.0+vite@2.2.3
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.9_svelte@3.37.0+vite@2.2.3
   autoprefixer: 10.2.5_postcss@8.2.13
   postcss: 8.2.13
   postcss-load-config: 3.0.1
@@ -79,8 +79,8 @@ packages:
       picomatch: 2.2.3
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.8_svelte@3.37.0+vite@2.2.3:
-    resolution: {integrity: sha512-aHhfHa0ma9e/H+yv5NA3ie0lRy5duwnUA5fNlGzvxlGMW7DPno+UffbMPZ/HQo3J3Oh7BdC/IDwSwvgucJHPkw==}
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.9_svelte@3.37.0+vite@2.2.3:
+    resolution: {integrity: sha512-ySB/GJsZV3h3jqjq5WIiaxVFkJK6vqtG9gS7Iw6SfUH9ZiFNw5JjQF69g68j9cNep3q4yRIYiG5/pI3YIdXEuA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       svelte: ^3.37.0
