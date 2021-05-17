@@ -9,10 +9,10 @@ specifiers:
   svelte-preprocess: 4.7.3
   tailwindcss: 2.1.2
   typescript: 4.2.4
-  vite: 2.3.2
+  vite: 2.3.3
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.10_svelte@3.38.2+vite@2.3.2
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.10_svelte@3.38.2+vite@2.3.3
   autoprefixer: 10.2.5_postcss@8.2.15
   postcss: 8.2.15
   postcss-load-config: 3.0.1
@@ -20,7 +20,7 @@ devDependencies:
   svelte-preprocess: 4.7.3_5944bffd99aeae72e0daf7602e6be64e
   tailwindcss: 2.1.2_797cfc3ceddb49f111b184f6879a433f
   typescript: 4.2.4
-  vite: 2.3.2
+  vite: 2.3.3
 
 packages:
 
@@ -79,7 +79,7 @@ packages:
       picomatch: 2.2.3
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.10_svelte@3.38.2+vite@2.3.2:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.10_svelte@3.38.2+vite@2.3.3:
     resolution: {integrity: sha512-ImvxbhPePm2hWNTKBSA3LHAYGwiEjHjvvgfPLXm4R87sfZ+BMXql9jBmDpzUC/URBLT4BB3Jxos/i523qkJBHg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -95,7 +95,7 @@ packages:
       source-map: 0.7.3
       svelte: 3.38.2
       svelte-hmr: 0.14.4_svelte@3.38.2
-      vite: 2.3.2
+      vite: 2.3.3
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -1080,8 +1080,8 @@ packages:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
     dev: true
 
-  /vite/2.3.2:
-    resolution: {integrity: sha512-QhLdOompDrfkyryCNTts9HE+eJhvhN9ibKNJ5Q8DpQai+6nOsuIlaveZNg67e1O/2QaWqXeBo82eHnAs1De2bQ==}
+  /vite/2.3.3:
+    resolution: {integrity: sha512-eO1iwRbn3/BfkNVMNJDeANAFCZ5NobYOFPu7IqfY7DcI7I9nFGjJIZid0EViTmLDGwwSUPmRAq3cRBbO3+DsMA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
