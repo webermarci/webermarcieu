@@ -7,7 +7,7 @@ specifiers:
   postcss-load-config: 3.1.0
   svelte: 3.38.2
   svelte-preprocess: 4.7.3
-  tailwindcss: 2.2.0
+  tailwindcss: 2.2.2
   typescript: 4.3.4
   vite: 2.3.7
 
@@ -18,7 +18,7 @@ devDependencies:
   postcss-load-config: 3.1.0
   svelte: 3.38.2
   svelte-preprocess: 4.7.3_a2d8f452e40e665e5ec860c235602d9d
-  tailwindcss: 2.2.0_72be89de93206f86f2d67dd5290ec14d
+  tailwindcss: 2.2.2_72be89de93206f86f2d67dd5290ec14d
   typescript: 4.3.4
   vite: 2.3.7
 
@@ -976,8 +976,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /tailwindcss/2.2.0_72be89de93206f86f2d67dd5290ec14d:
-    resolution: {integrity: sha512-vzyictuac60cUfky6R4gFW98glcc/UxpaCH+Mt9dq+LEPdZq2Dpvo5iYpPaemutOIjfeiY0Y8j0ZgJG3wBaFDQ==}
+  /tailwindcss/2.2.2_72be89de93206f86f2d67dd5290ec14d:
+    resolution: {integrity: sha512-OzFWhlnfrO3JXZKHQiqZcb0Wwl3oJSmQ7PvT2jdIgCjV5iUoAyql9bb9ZLCSBI5TYXmawujXAoNxXVfP5Auy/Q==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
