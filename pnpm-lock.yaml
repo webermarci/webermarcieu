@@ -8,7 +8,7 @@ specifiers:
   svelte: 3.38.3
   svelte-preprocess: 4.7.3
   tailwindcss: 2.2.4
-  typescript: 4.3.4
+  typescript: 4.3.5
   vite: 2.3.8
 
 devDependencies:
@@ -17,9 +17,9 @@ devDependencies:
   postcss: 8.3.5
   postcss-load-config: 3.1.0
   svelte: 3.38.3
-  svelte-preprocess: 4.7.3_43084f978d25920dd68b5afc479d6e81
+  svelte-preprocess: 4.7.3_a5a18df0fd80b121f7e25f45162d169d
   tailwindcss: 2.2.4_72be89de93206f86f2d67dd5290ec14d
-  typescript: 4.3.4
+  typescript: 4.3.5
   vite: 2.3.8
 
 packages:
@@ -910,7 +910,7 @@ packages:
       svelte: 3.38.3
     dev: true
 
-  /svelte-preprocess/4.7.3_43084f978d25920dd68b5afc479d6e81:
+  /svelte-preprocess/4.7.3_a5a18df0fd80b121f7e25f45162d169d:
     resolution: {integrity: sha512-Zx1/xLeGOIBlZMGPRCaXtlMe4ZA0faato5Dc3CosEqwu75MIEPuOstdkH6cy+RYTUYynoxzNaDxkPX4DbrPwRA==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -958,7 +958,7 @@ packages:
       postcss-load-config: 3.1.0
       strip-indent: 3.0.0
       svelte: 3.38.3
-      typescript: 4.3.4
+      typescript: 4.3.5
     dev: true
 
   /svelte/3.38.3:
@@ -1025,8 +1025,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /typescript/4.3.4:
-    resolution: {integrity: sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==}
+  /typescript/4.3.5:
+    resolution: {integrity: sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
