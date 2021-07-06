@@ -1,10 +1,8 @@
 <script lang="ts">
-    import "./global.css";
-
-    import Dots from "./lib/Dots.svelte";
-    import Header from "./lib/Header.svelte";
-    import Intro from "./lib/Intro.svelte";
-    import Projects from "./lib/Projects.svelte";
+    import Dots from "$lib/Dots.svelte";
+    import Header from "$lib/Header.svelte";
+    import Intro from "$lib/Intro.svelte";
+    import Projects from "$lib/Projects.svelte";
 </script>
 
 <main class="p-8 sm:p-12 md:p-16 xl:p-24 xl:ml-32">
@@ -22,16 +20,6 @@
 <Dots />
 
 <style>
-    :global(*) {
-        @apply antialiased;
-        @apply subpixel-antialiased;
-        font-family: "Rubik", sans-serif;
-    }
-
-    :global(body) {
-        background: #202020;
-    }
-
     @keyframes -global-fade {
         0% {
             opacity: 0;

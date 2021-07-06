@@ -5,16 +5,13 @@
 <div>
     <section>
         <p>
-            I am a software developer with great emphasis on performance and
-            perfection.
+            I am a freelance software developer with great emphasis on
+            performance and perfection.
         </p>
     </section>
 
     <section>
-        <p>
-            Recently, I've been working on an IoT sensor platform. We are hoping
-            to release it really soon.
-        </p>
+        <p>Recently, I've been working on an IoT sensor platform.</p>
     </section>
 
     <section>

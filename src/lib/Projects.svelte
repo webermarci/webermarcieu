@@ -24,12 +24,6 @@
             url: "https://timato.netlify.app/",
         },
         {
-            title: "Svelte Template",
-            description: "Svelte + TS + Snowpack + Tailwind template.",
-            url:
-                "https://github.com/webermarci/svelte-snowpack-tailwind-typescript-template",
-        },
-        {
             title: "Go Pipe Parser",
             description: "A go library to help parse unix pipes.",
             url: "https://github.com/webermarci/go-pipe-parser",

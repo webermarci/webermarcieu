@@ -34,7 +34,7 @@
         @apply w-screen;
         @apply fixed;
         @apply top-0;
-        @apply opacity-30;
+        @apply opacity-50;
         @apply ease-linear;
 
         z-index: -1;

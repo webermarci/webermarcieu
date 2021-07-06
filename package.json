@@ -1,21 +1,26 @@
 {
-    "name": "webermarcieu",
-    "version": "5.1.0",
-    "scripts": {
-        "prebuild": "test \"$CI\" = true && npx pnpm install --store=node_modules/.pnpm-store || echo skiping pnpm install",
-        "build": "vite build",
-        "serve": "vite preview",
-        "dev": "vite"
-    },
-    "devDependencies": {
-        "@sveltejs/vite-plugin-svelte": "1.0.0-next.11",
-        "autoprefixer": "10.2.6",
-        "postcss": "8.3.5",
-        "postcss-load-config": "3.1.0",
-        "svelte": "3.38.3",
-        "svelte-preprocess": "4.7.3",
-        "tailwindcss": "2.2.4",
-        "typescript": "4.3.5",
-        "vite": "2.4.1"
-    }
+  "name": "webermarcieu",
+  "version": "6.0.0",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.34.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.15",
+    "postcss-load-config": "^3.0.1",
+    "@sveltejs/adapter-static": "^1.0.0-next.9",
+    "tailwindcss": "^2.1.2"
+  },
+  "type": "module"
 }
