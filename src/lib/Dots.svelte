@@ -5,12 +5,16 @@
         r: number;
     }
 
+    const n =
+        window.outerWidth > window.outerHeight
+            ? window.outerWidth
+            : window.outerHeight;
     const coords: Point[] = [];
 
-    for (let i = 0; i < 512; i++) {
+    for (let i = 0; i < 128; i++) {
         coords.push({
-            x: -window.outerWidth + Math.random() * window.outerWidth * 2,
-            y: -window.outerHeight + Math.random() * window.outerHeight * 2,
+            x: Math.random() * n,
+            y: Math.random() * n,
             r: Math.random() * 2.3,
         });
     }

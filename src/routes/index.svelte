@@ -17,7 +17,9 @@
         @apply text-white;
         @apply text-lg;
         @apply tracking-wide;
-        @apply p-8;
+        @apply pt-14;
+        @apply px-8;
+        @apply pb-8;
         @apply sm:p-12;
         @apply md:p-16;
         @apply xl:p-24;

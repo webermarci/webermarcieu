@@ -1,3 +1,7 @@
+<script>
+    import Skills from "./Skills.svelte";
+</script>
+
 <div>
     <section>
         <p>
@@ -6,19 +10,7 @@
         </p>
     </section>
 
-    <section>
-        <p>
-            For the past few years I've been making drive throughs even more
-            seamless at
-            <a target="blank" href="https://www.rollet.hu/">Rollet</a>. I was an
-            early bird at the company, so I had the opportunity to work on
-            almost everything software related.
-        </p>
-    </section>
-
-    <section>
-        <p>Previously I was making an HR software system at Ulyssys.</p>
-    </section>
+    <Skills />
 
     <section>
         <p>
@@ -36,7 +28,7 @@
 
 <style>
     div > section:not(:last-child) {
-        @apply mb-6;
+        @apply mb-8;
     }
 
     div > section > p:not(:last-child) {
