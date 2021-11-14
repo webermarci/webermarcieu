@@ -7,11 +7,11 @@
 
     const coords: Point[] = [];
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 512; i++) {
         coords.push({
-            x: Math.floor(Math.random() * window.outerWidth),
-            y: Math.floor(Math.random() * window.outerHeight),
-            r: Math.floor(Math.random() * 3),
+            x: -window.outerWidth + Math.random() * window.outerWidth * 2,
+            y: -window.outerHeight + Math.random() * window.outerHeight * 2,
+            r: Math.random() * 2.3,
         });
     }
 </script>
@@ -26,7 +26,7 @@
 
 <style>
     section {
-        animation: fade ease 3s;
+        animation: fade ease 2s;
     }
 
     svg {
@@ -34,7 +34,7 @@
         @apply w-screen;
         @apply fixed;
         @apply top-0;
-        @apply opacity-50;
+        @apply opacity-60;
         @apply ease-linear;
 
         z-index: -1;
@@ -42,6 +42,22 @@
         animation-duration: 420s;
         animation-fill-mode: both;
         animation-iteration-count: infinite;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        circle {
+            filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+        }
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 
     @keyframes orbit {

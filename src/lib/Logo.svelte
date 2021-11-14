@@ -1,11 +1,10 @@
 <svg
-    class="hidden md:block"
     xmlns="http://www.w3.org/2000/svg"
     width="110"
     height="140"
     stroke-linecap="round"
     stroke="currentColor"
-    stroke-width="0.3rem"
+    stroke-width="8px"
 >
     <line x1="5" y1="5" x2="35" y2="70" />
     <line x1="35" y1="70" x2="5" y2="135" />
@@ -17,9 +16,11 @@
     <line x1="75" y1="70" x2="105" y2="135" />
 </svg>
 
-<style>
+<style lang="postcss">
     svg {
-        @apply ml-20;
-        zoom: 0.4;
+        @apply hidden;
+        @apply md:block;
+        @apply ml-16;
+        zoom: 0.6;
     }
 </style>
