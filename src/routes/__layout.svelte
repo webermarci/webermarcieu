@@ -16,7 +16,7 @@
     }
 
     :global(body) {
-        @apply bg-blue-600;
+        @apply bg-blue-500;
         @apply dark:bg-gray-900;
     }
 

@@ -9,58 +9,50 @@
         window.outerWidth > window.outerHeight
             ? window.outerWidth
             : window.outerHeight;
+    const m = 3 * n;
     const coords: Point[] = [];
 
-    for (let i = 0; i < 128; i++) {
+    for (let i = 0; i < 1024; i++) {
         coords.push({
-            x: Math.random() * n,
-            y: Math.random() * n,
-            r: Math.random() * 2.3,
+            x: Math.random() * m,
+            y: Math.random() * m,
+            r: Math.random() * 2,
         });
     }
 </script>
 
-<section>
-    <svg>
-        {#each coords as { x, y, r }, i}
-            <circle fill="#fff" cx={x} cy={y} {r} />
-        {/each}
-    </svg>
-</section>
+<svg>
+    {#each coords as { x, y, r }, i}
+        <circle fill="#fff" cx={x} cy={y} {r} />
+    {/each}
+</svg>
 
-<style>
-    section {
-        animation: fade ease 2s;
-    }
-
+<style lang="postcss">
     svg {
-        @apply h-screen;
-        @apply w-screen;
         @apply fixed;
         @apply top-0;
-        @apply opacity-60;
+        @apply opacity-70;
+        @apply dark:opacity-80;
         @apply ease-linear;
+        @apply top-full;
+        @apply left-full;
+        @apply origin-center;
+        width: 300vw;
+        height: 300vh;
+        margin-top: -150vh;
+        margin-left: -150vw;
 
         z-index: -1;
         animation-name: orbit;
-        animation-duration: 420s;
+        animation-duration: 512s;
         animation-fill-mode: both;
+        animation-timing-function: linear;
         animation-iteration-count: infinite;
     }
 
     @media (prefers-color-scheme: dark) {
         circle {
-            filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
-        }
-    }
-
-    @keyframes fade {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
+            filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.8));
         }
     }
 

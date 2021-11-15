@@ -2,7 +2,7 @@
     import { onDestroy } from "svelte";
     import { fly } from "svelte/transition";
 
-    const x = 32;
+    const x = 42;
     const dur = 600;
 
     let counter = 3;
@@ -305,6 +305,13 @@
 <style lang="postcss">
     section {
         @apply mb-8;
+        @apply py-2;
+        @apply rounded;
+        @apply bg-white;
+        @apply bg-opacity-10;
+        @apply dark:bg-opacity-5;
+        @apply bg-clip-padding;
+        backdrop-filter: blur(3px);
     }
 
     .item {
