@@ -9,14 +9,14 @@
         window.outerWidth > window.outerHeight
             ? window.outerWidth
             : window.outerHeight;
-    const m = 3 * n;
+    const m = 4 * n;
     const coords: Point[] = [];
 
-    for (let i = 0; i < 1024; i++) {
+    for (let i = 0; i < 1.5 * n; i++) {
         coords.push({
             x: Math.random() * m,
             y: Math.random() * m,
-            r: Math.random() * 2,
+            r: 0.2 + Math.random() * 2,
         });
     }
 </script>
@@ -37,10 +37,10 @@
         @apply top-full;
         @apply left-full;
         @apply origin-center;
-        width: 300vw;
-        height: 300vh;
-        margin-top: -150vh;
-        margin-left: -150vw;
+        width: 400vw;
+        height: 400vh;
+        margin-top: -200vh;
+        margin-left: -200vw;
 
         z-index: -1;
         animation-name: orbit;
