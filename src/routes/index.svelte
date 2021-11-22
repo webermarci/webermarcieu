@@ -24,6 +24,10 @@
         @apply md:p-16;
         @apply xl:p-24;
         @apply xl:ml-32;
+        @apply 2xl:p-64;
+        @apply 2xl:ml-52;
+        @apply transition-all;
+        @apply duration-1000;
     }
 
     main > div {
