@@ -31,8 +31,11 @@
 
     :global(a) {
         @apply text-black;
-        @apply bg-yellow-300;
-        @apply dark:bg-green-300;
+        @apply bg-gradient-to-b;
+        @apply from-yellow-300;
+        @apply to-yellow-400;
+        @apply dark:from-green-300;
+        @apply dark:to-green-400;
         @apply rounded-sm;
         @apply px-1;
         @apply hover:underline;
