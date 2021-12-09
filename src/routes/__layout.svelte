@@ -1,5 +1,6 @@
 <script>
     import "../app.postcss";
+    import Starfield from "$lib/Starfield.svelte";
 </script>
 
 <svelte:head>
@@ -7,6 +8,7 @@
 </svelte:head>
 
 <slot />
+<Starfield />
 
 <style lang="postcss">
     :global(*) {
