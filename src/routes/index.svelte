@@ -1,7 +1,7 @@
 <script lang="ts">
     import Header from "$lib/Header.svelte";
     import Intro from "$lib/Intro.svelte";
-    import Dots from "$lib/Dots.svelte";
+    import Starfield from "$lib/Starfield.svelte";
 </script>
 
 <main>
@@ -10,7 +10,7 @@
         <Intro />
     </div>
 </main>
-<Dots />
+<Starfield />
 
 <style lang="postcss">
     main {

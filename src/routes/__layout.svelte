@@ -34,16 +34,9 @@
         @apply bg-gradient-to-b;
         @apply from-yellow-300;
         @apply to-yellow-400;
-        @apply dark:from-green-300;
-        @apply dark:to-green-400;
+        @apply hover:underline;
         @apply rounded-sm;
         @apply px-1;
-        @apply hover:underline;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :global(a) {
-            box-shadow: 0 0 8px 0 rgba(110, 231, 183, 0.4);
-        }
+        box-shadow: 0 0 8px 0 rgba(252, 211, 77, 0.4);
     }
 </style>
