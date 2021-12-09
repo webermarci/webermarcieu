@@ -16,8 +16,8 @@
     }
 
     :global(body) {
-        @apply bg-blue-500;
-        @apply dark:bg-gray-900;
+        @apply bg-gray-900;
+        @apply overscroll-none;
     }
 
     :global(h1) {

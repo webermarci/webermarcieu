@@ -10,7 +10,7 @@
     <Logo />
 </section>
 
-<style>
+<style lang="postcss">
     section {
         @apply flex;
         @apply items-center;

@@ -30,6 +30,11 @@
 
 <style lang="postcss">
     div {
+        @apply bg-gradient-to-b;
+        @apply from-blue-700;
+        @apply to-blue-500;
+        @apply dark:from-gray-900;
+        @apply dark:to-indigo-900;
         @apply flex;
         @apply items-center;
         @apply fixed;
@@ -37,7 +42,6 @@
         @apply w-screen;
         @apply h-screen;
         z-index: -1;
-        animation: 1.5s ease-in fadeIn;
     }
 
     svg {
@@ -54,16 +58,6 @@
 
         100% {
             transform: rotate(360deg);
-        }
-    }
-
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
         }
     }
 </style>

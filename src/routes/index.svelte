@@ -1,7 +1,7 @@
 <script lang="ts">
-    import Dots from "$lib/Dots.svelte";
     import Header from "$lib/Header.svelte";
     import Intro from "$lib/Intro.svelte";
+    import Dots from "$lib/Dots.svelte";
 </script>
 
 <main>

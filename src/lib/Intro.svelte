@@ -26,7 +26,7 @@
     </section>
 </div>
 
-<style>
+<style lang="postcss">
     div > section:not(:last-child) {
         @apply mb-8;
     }
