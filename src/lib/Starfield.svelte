@@ -112,9 +112,9 @@
 
 <style lang="postcss">
     section {
-        @apply bg-gradient-to-br;
-        @apply from-gray-900;
-        @apply to-blue-900;
+        @apply bg-gradient-to-b;
+        @apply from-blue-900;
+        @apply to-blue-500;
         @apply dark:from-gray-900;
         @apply dark:to-indigo-900;
         @apply fixed;

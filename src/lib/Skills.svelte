@@ -308,7 +308,8 @@
         @apply py-2;
         @apply rounded;
         @apply bg-white;
-        @apply bg-opacity-5;
+        @apply bg-opacity-10;
+        @apply dark:bg-opacity-5;
         @apply bg-clip-padding;
         backdrop-filter: blur(3px);
     }
