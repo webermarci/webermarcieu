@@ -127,5 +127,15 @@
     canvas {
         @apply w-full;
         @apply h-full;
+        animation: fadeIn 1s linear;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 </style>
