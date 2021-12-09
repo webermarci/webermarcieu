@@ -37,6 +37,6 @@
         @apply hover:underline;
         @apply rounded-sm;
         @apply px-1;
-        box-shadow: 0 0 8px 0 rgba(252, 211, 77, 0.4);
+        box-shadow: 0 0 8px 0 rgba(252, 211, 77, 0.3);
     }
 </style>
