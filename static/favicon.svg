@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="260" height="260" version="1.1" viewBox="0 0 68.792 68.792" xmlns="http://www.w3.org/2000/svg">
    <style>
-      circle { fill: #111827; }
+      circle { fill: #0f172a; }
       line { stroke: #fff; }
       @media (prefers-color-scheme: dark) {
          circle { fill: #fff; }
-         line { stroke: #111827; }
+         line { stroke: #0f172a; }
       }
    </style>
    <circle cx="34.396" cy="34.396" r="33.867" fill-rule="evenodd"/>

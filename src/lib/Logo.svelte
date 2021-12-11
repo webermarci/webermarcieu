@@ -3,7 +3,7 @@
     width="110"
     height="140"
     stroke-linecap="round"
-    stroke="currentColor"
+    stroke="#fff"
     stroke-width="8px"
 >
     <line x1="5" y1="5" x2="35" y2="70" />
