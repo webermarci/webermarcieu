@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import "../app.postcss";
     import Starfield from "$lib/Starfield.svelte";
 </script>
@@ -7,7 +7,9 @@
     <title>webermarci.eu</title>
 </svelte:head>
 
-<slot />
+<main>
+    <slot />
+</main>
 <Starfield />
 
 <style lang="postcss">
@@ -18,7 +20,6 @@
     }
 
     :global(body) {
-        @apply bg-gray-900;
         @apply overscroll-none;
     }
 
@@ -40,5 +41,18 @@
         @apply hover:decoration-2;
         @apply rounded-sm;
         @apply px-1;
+    }
+
+    main {
+        @apply text-white;
+        @apply text-lg;
+        @apply tracking-wide;
+        @apply p-8;
+        @apply md:px-20;
+        @apply md:py-24;
+        @apply xl:p-28;
+        @apply xl:mx-32;
+        @apply 2xl:p-64;
+        @apply 2xl:ml-52;
     }
 </style>

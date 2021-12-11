@@ -15,8 +15,8 @@
         {#if counter % 3 == 0}
             <div
                 class="item"
-                in:fly={{ x: x, duration: dur, delay: dur }}
-                out:fly={{ x: -x, duration: dur }}
+                in:fly|local={{ x: x, duration: dur, delay: dur }}
+                out:fly|local={{ x: -x, duration: dur }}
             >
                 <svg
                     role="img"
@@ -119,8 +119,8 @@
         {:else if counter % 3 == 1}
             <div
                 class="item"
-                in:fly={{ x: x, duration: dur, delay: dur }}
-                out:fly={{ x: -x, duration: dur }}
+                in:fly|local={{ x: x, duration: dur, delay: dur }}
+                out:fly|local={{ x: -x, duration: dur }}
             >
                 <svg
                     role="img"
@@ -211,8 +211,8 @@
         {:else}
             <div
                 class="item"
-                in:fly={{ x: x, duration: dur, delay: dur }}
-                out:fly={{ x: -x, duration: dur }}
+                in:fly|local={{ x: x, duration: dur, delay: dur }}
+                out:fly|local={{ x: -x, duration: dur }}
             >
                 <svg
                     role="img"
@@ -308,8 +308,7 @@
         @apply py-2;
         @apply rounded;
         @apply bg-white;
-        @apply bg-opacity-10;
-        @apply dark:bg-opacity-5;
+        @apply bg-opacity-5;
         @apply bg-clip-padding;
         backdrop-filter: blur(3px);
     }

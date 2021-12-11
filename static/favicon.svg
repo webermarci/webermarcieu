@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="260" height="260" version="1.1" viewBox="0 0 68.792 68.792" xmlns="http://www.w3.org/2000/svg">
-   <circle cx="34.396" cy="34.396" r="33.867" fill="rgba(0, 0, 0, 0.8)" fill-rule="evenodd"/>
-   <g transform="matrix(.30542 0 0 .30542 17.598 13.017)" stroke="white" stroke-linecap="round" stroke-width="10px">
+   <style>
+      circle { fill: #111827; }
+      line { stroke: #fff; }
+      @media (prefers-color-scheme: dark) {
+         circle { fill: #fff; }
+         line { stroke: #111827; }
+      }
+   </style>
+   <circle cx="34.396" cy="34.396" r="33.867" fill-rule="evenodd"/>
+   <g transform="matrix(.30542 0 0 .30542 17.598 13.017)" stroke-linecap="round" stroke-width="10px">
       <line x1="5" x2="35" y1="5" y2="70"/>
       <line x1="35" x2="5" y1="70" y2="135"/>
       <line x1="35" x2="55" y1="70" y2="35"/>
@@ -11,4 +19,4 @@
       <line x1="75" x2="105" y1="70" y2="5"/>
       <line x1="75" x2="105" y1="70" y2="135"/>
    </g>
-</svg>
+</svg> 

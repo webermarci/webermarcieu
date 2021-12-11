@@ -113,10 +113,8 @@
 <style lang="postcss">
     section {
         @apply bg-gradient-to-b;
-        @apply from-blue-900;
-        @apply to-sky-600;
-        @apply dark:from-slate-900;
-        @apply dark:to-indigo-900;
+        @apply from-slate-900;
+        @apply to-indigo-900;
         @apply fixed;
         @apply top-0;
         @apply w-screen;
