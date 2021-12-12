@@ -18,9 +18,13 @@
 
 <style lang="postcss">
     svg {
-        @apply hidden;
-        @apply md:block;
         @apply ml-16;
-        zoom: 0.6;
+        zoom: 0.4;
+    }
+
+    @media (min-width: 768px) {
+        svg {
+            zoom: 0.6;
+        }
     }
 </style>

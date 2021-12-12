@@ -33,14 +33,14 @@
     }
 
     :global(a) {
+        @apply px-1;
+        @apply rounded-sm;
         @apply text-black;
         @apply bg-gradient-to-b;
         @apply from-yellow-300;
         @apply to-yellow-400;
         @apply hover:underline;
         @apply hover:decoration-2;
-        @apply rounded-sm;
-        @apply px-1;
     }
 
     main {

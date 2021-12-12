@@ -20,7 +20,6 @@
             >
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -32,7 +31,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -44,7 +42,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -56,7 +53,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -70,7 +66,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -82,7 +77,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -94,7 +88,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -106,7 +99,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -124,7 +116,6 @@
             >
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -136,7 +127,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -148,7 +138,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -160,7 +149,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -174,7 +162,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -186,7 +173,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -198,7 +184,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -216,7 +201,6 @@
             >
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -228,7 +212,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -240,7 +223,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -254,7 +236,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -266,7 +247,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -278,7 +258,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -288,7 +267,6 @@
 
                 <svg
                     role="img"
-                    fill="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -327,6 +305,7 @@
     }
 
     svg {
+        @apply fill-current;
         @apply w-6;
         @apply md:w-8;
         @apply h-6;
