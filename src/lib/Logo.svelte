@@ -4,7 +4,6 @@
     height="140"
     stroke-linecap="round"
     stroke="#fff"
-    stroke-width="8px"
 >
     <line x1="5" y1="5" x2="35" y2="70" />
     <line x1="35" y1="70" x2="5" y2="135" />
@@ -18,8 +17,17 @@
 
 <style lang="postcss">
     svg {
-        @apply ml-16;
+        @apply hidden;
+        @apply ml-8;
+        @apply md:ml-16;
         zoom: 0.4;
+        stroke-width: 0.4rem;
+    }
+
+    @media (min-width: 375px) {
+        svg {
+            @apply block;
+        }
     }
 
     @media (min-width: 768px) {
