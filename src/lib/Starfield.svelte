@@ -96,7 +96,7 @@
             prevTime = time;
 
             clearContext(ctx);
-            moveStars(elapsed * 0.01);
+            moveStars(elapsed * 0.015);
             drawStars(ctx);
 
             requestAnimationFrame(tick);
