@@ -10,7 +10,6 @@ const config = {
 	],
 	kit: {
 		adapter: staticAdapter(),
-		ssr: false,
 		target: '#svelte'
 	}
 }
