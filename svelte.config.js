@@ -9,8 +9,7 @@ const config = {
 		}),
 	],
 	kit: {
-		adapter: staticAdapter(),
-		target: '#svelte'
+		adapter: staticAdapter()
 	}
 }
 
