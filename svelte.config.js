@@ -9,7 +9,10 @@ const config = {
 		}),
 	],
 	kit: {
-		adapter: staticAdapter()
+		adapter: staticAdapter(),
+		prerender: {
+			default: true
+		}
 	}
 }
 
