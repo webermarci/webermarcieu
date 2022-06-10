@@ -18,7 +18,7 @@ specifiers:
   svelte: 3.48.0
   svelte-check: 2.7.2
   svelte-preprocess: 4.10.7
-  tailwindcss: 3.1.1
+  tailwindcss: 3.1.2
   tslib: 2.4.0
   typescript: 4.7.3
 
@@ -40,7 +40,7 @@ devDependencies:
   svelte: 3.48.0
   svelte-check: 2.7.2_bwfybwdzwmlevsatlte2x4gwcy
   svelte-preprocess: 4.10.7_kyjjbybckohdgmfoyqhtjxxdom
-  tailwindcss: 3.1.1
+  tailwindcss: 3.1.2
   tslib: 2.4.0
   typescript: 4.7.3
 
@@ -2206,8 +2206,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.1.1:
-    resolution: {integrity: sha512-F5VFj5FiS4QZqdXPE6T6RJFqbsmISQ2KBUp9bOQyws9TleGToHsa54X8kwXwVdHMQhNeXOlxI47lrRICEVuOvg==}
+  /tailwindcss/3.1.2:
+    resolution: {integrity: sha512-yJ6L5s1U5AeS5g7HHy212zdQfjwD426FBfm59pet/JsyneuZuD4C2W7PpJEg4ppisiB21uLqtNagv8KXury3+Q==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
