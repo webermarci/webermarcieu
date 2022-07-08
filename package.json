@@ -3,7 +3,7 @@
 	"version": "7.2.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
@@ -33,7 +33,8 @@
 		"svelte-preprocess": "4.10.7",
 		"tailwindcss": "3.1.5",
 		"tslib": "2.4.0",
-		"typescript": "4.7.4"
+		"typescript": "4.7.4",
+		"vite": "2.9.13"
 	},
 	"type": "module"
 }
