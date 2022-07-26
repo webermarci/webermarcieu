@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@playwright/test': 1.24.0
+  '@playwright/test': 1.24.1
   '@sveltejs/adapter-static': 1.0.0-next.38
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.31.0
@@ -24,9 +24,9 @@ specifiers:
   vite: 3.0.3
 
 devDependencies:
-  '@playwright/test': 1.24.0
+  '@playwright/test': 1.24.1
   '@sveltejs/adapter-static': 1.0.0-next.38
-  '@sveltejs/kit': 1.0.0-next.393_svelte@3.49.0+vite@3.0.3
+  '@sveltejs/kit': 1.0.0-next.394_svelte@3.49.0+vite@3.0.3
   '@typescript-eslint/eslint-plugin': 5.31.0_d5zwcxr4bwkhmuo464cb3a2puu
   '@typescript-eslint/parser': 5.31.0_he2ccbldppg44uulnyq4rwocfa
   autoprefixer: 10.4.7_postcss@8.4.14
@@ -117,13 +117,13 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@playwright/test/1.24.0:
-    resolution: {integrity: sha512-sZLH2N6aWN9TtG+vMjNSomSfX0dSVHwWE+GhHQPV+ZeGcuZ/6CgMCGFuGjobgq/hNF9ZkuVOjeyoceZ0owKnHQ==}
+  /@playwright/test/1.24.1:
+    resolution: {integrity: sha512-VJ9qekMis7Oze2Q/Vb+w1g2aPaJFRdl5vhTS6h82kG89Jb8trlU2WHY7oYzNRjvFPoVUMcWXiblH2bWcbEax/A==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.6.1
-      playwright-core: 1.24.0
+      playwright-core: 1.24.1
     dev: true
 
   /@rollup/pluginutils/4.2.1:
@@ -140,8 +140,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.393_svelte@3.49.0+vite@3.0.3:
-    resolution: {integrity: sha512-B7tCEcHJepsgJxY3jonOKhxGjB/58h9UWa7KZKvgSTswQOcuDZ9IXyQ1LRizc2BhcN2htUUVMuwU77NmM7jGFg==}
+  /@sveltejs/kit/1.0.0-next.394_svelte@3.49.0+vite@3.0.3:
+    resolution: {integrity: sha512-YfRNSKdbvihHFvmQodaMlChcyf9dfU36FwK8WYQF5jqEmiRajLBb/ooU6RqPA0Z6j5okJHDSYBwxW8TP+nc+gg==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
@@ -1527,8 +1527,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /playwright-core/1.24.0:
-    resolution: {integrity: sha512-BkDWdVsoEEC8m2glQlfNu1EN2qvjBsLIg5bD0wjrfwv9zVHktIsp80yYFObAcWreLNYhfRP4PlXE04lr5R4DFQ==}
+  /playwright-core/1.24.1:
+    resolution: {integrity: sha512-1RoSDe/oTQS1Ct7Pb8i+vcFKbKYpmVIBXk0IUiD8RvCUMnNl7EJF1OSQ9E8TZ5RYamWkW2Psir9e8Doyz1FnhQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
