@@ -2,10 +2,10 @@
 	"name": "webermarcieu",
 	"version": "7.2.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
+		"dev": "vite dev",
 		"build": "vite build",
 		"package": "svelte-kit package",
-		"preview": "svelte-kit preview",
+		"preview": "vite preview",
 		"test": "playwright test",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
