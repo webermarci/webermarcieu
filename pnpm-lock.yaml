@@ -26,7 +26,7 @@ specifiers:
 devDependencies:
   '@playwright/test': 1.25.0
   '@sveltejs/adapter-static': 1.0.0-next.39
-  '@sveltejs/kit': 1.0.0-next.425_svelte@3.49.0+vite@3.0.9
+  '@sveltejs/kit': 1.0.0-next.427_svelte@3.49.0+vite@3.0.9
   '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
   '@typescript-eslint/parser': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
   autoprefixer: 10.4.8_postcss@8.4.16
@@ -155,8 +155,8 @@ packages:
     resolution: {integrity: sha512-EeD39H6iEe0UEKnKxLFTZFZpi/FcX5xfbAvsMQ+B09aDZccpQmkJBSIo+4kq1JsQGSjwi/+J3aE9bR67R6CIyQ==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.425_svelte@3.49.0+vite@3.0.9:
-    resolution: {integrity: sha512-By8w2kKXAbdt2n+Q17beAdnVn7DTW6330gCf9bCBP6uA0ZUUsMMj2ZMkcDfauQqXW9ZWvyI0YsMqnssnmg2/Nw==}
+  /@sveltejs/kit/1.0.0-next.427_svelte@3.49.0+vite@3.0.9:
+    resolution: {integrity: sha512-HUt1knOXaEM18y7E3k0CvhTxmoNhp0KbgfbLPmuRvSrQxRMsTnTpupZwW5mmU0VZkm4HHsf8mwftGy4WR8qf1Q==}
     engines: {node: '>=16.9'}
     hasBin: true
     requiresBuild: true
@@ -479,7 +479,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001378
-      electron-to-chromium: 1.4.222
+      electron-to-chromium: 1.4.225
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
@@ -774,8 +774,8 @@ packages:
       domhandler: 4.3.1
     dev: true
 
-  /electron-to-chromium/1.4.222:
-    resolution: {integrity: sha512-gEM2awN5HZknWdLbngk4uQCVfhucFAfFzuchP3wM3NN6eow1eDU0dFy2kts43FB20ZfhVFF0jmFSTb1h5OhyIg==}
+  /electron-to-chromium/1.4.225:
+    resolution: {integrity: sha512-ICHvGaCIQR3P88uK8aRtx8gmejbVJyC6bB4LEC3anzBrIzdzC7aiZHY4iFfXhN4st6I7lMO0x4sgBHf/7kBvRw==}
     dev: true
 
   /entities/2.2.0:
@@ -1213,12 +1213,12 @@ packages:
     resolution: {integrity: sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==}
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
-      flatted: 3.2.6
+      flatted: 3.2.7
       rimraf: 3.0.2
     dev: true
 
-  /flatted/3.2.6:
-    resolution: {integrity: sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==}
+  /flatted/3.2.7:
+    resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
   /formdata-polyfill/4.0.10:
