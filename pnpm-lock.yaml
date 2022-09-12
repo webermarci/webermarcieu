@@ -6,7 +6,7 @@ specifiers:
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.36.2
   '@typescript-eslint/parser': 5.36.2
-  autoprefixer: 10.4.8
+  autoprefixer: 10.4.9
   cssnano: 5.1.13
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0
@@ -26,10 +26,10 @@ specifiers:
 devDependencies:
   '@playwright/test': 1.25.2
   '@sveltejs/adapter-static': 1.0.0-next.42
-  '@sveltejs/kit': 1.0.0-next.478_svelte@3.50.1+vite@3.1.0
+  '@sveltejs/kit': 1.0.0-next.480_svelte@3.50.1+vite@3.1.0
   '@typescript-eslint/eslint-plugin': 5.36.2_2l2r3i3lm6jysqd4ac3ql4n2mm
   '@typescript-eslint/parser': 5.36.2_itqs5654cmlnjraw6gjzqacppi
-  autoprefixer: 10.4.8_postcss@8.4.16
+  autoprefixer: 10.4.9_postcss@8.4.16
   cssnano: 5.1.13_postcss@8.4.16
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
@@ -160,8 +160,8 @@ packages:
     resolution: {integrity: sha512-BLMQY8zfUibex5FE3zkMXdkW4l/n+1tecUrCxmmO5jc8vEuZc41VQdmQtDifX80Bf1pCG3RH7151tJ+jqte2lg==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.478_svelte@3.50.1+vite@3.1.0:
-    resolution: {integrity: sha512-XnsPQg1aQpfgqU3FvuLrfY7HwwQpq82EbW4Y5FybEshsnJkeGGWv4qQUKpR88E0mu8yHqGh0MVZpsbMSteoa/w==}
+  /@sveltejs/kit/1.0.0-next.480_svelte@3.50.1+vite@3.1.0:
+    resolution: {integrity: sha512-RnltVDZFksAkeIZ0wgMQDr4POz3WZxSDy6D/ycIjrz3VXMDYWxKRqmTEI7Yl7TxPgUabeYHGRm/qI+nSXOb/Yw==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -436,15 +436,15 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer/10.4.8_postcss@8.4.16:
-    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
+  /autoprefixer/10.4.9_postcss@8.4.16:
+    resolution: {integrity: sha512-Uu67eduPEmOeA0vyJby5ghu1AAELCCNSsLAjK+lz6kYzNM5sqnBO36MqfsjhPjQF/BaJM5U/UuFYyl7PavY/wQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.3
-      caniuse-lite: 1.0.30001390
+      caniuse-lite: 1.0.30001397
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -484,7 +484,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001390
+      caniuse-lite: 1.0.30001397
       electron-to-chromium: 1.4.241
       node-releases: 2.0.6
       update-browserslist-db: 1.0.7_browserslist@4.21.3
@@ -508,13 +508,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.21.3
-      caniuse-lite: 1.0.30001390
+      caniuse-lite: 1.0.30001397
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite/1.0.30001390:
-    resolution: {integrity: sha512-sS4CaUM+/+vqQUlCvCJ2WtDlV81aWtHhqeEVkLokVJJa3ViN4zDxAGfq9R8i1m90uGHxo99cy10Od+lvn3hf0g==}
+  /caniuse-lite/1.0.30001397:
+    resolution: {integrity: sha512-SW9N2TbCdLf0eiNDRrrQXx2sOkaakNZbCjgNpPyMJJbiOrU5QzMIrXOVMRM1myBXTD5iTkdrtU/EguCrBocHlA==}
     dev: true
 
   /chalk/4.1.2:
