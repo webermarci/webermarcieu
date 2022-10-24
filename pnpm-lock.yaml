@@ -26,7 +26,7 @@ specifiers:
 devDependencies:
   '@playwright/test': 1.27.1
   '@sveltejs/adapter-static': 1.0.0-next.46
-  '@sveltejs/kit': 1.0.0-next.522_svelte@3.52.0+vite@3.1.8
+  '@sveltejs/kit': 1.0.0-next.523_svelte@3.52.0+vite@3.1.8
   '@typescript-eslint/eslint-plugin': 5.40.1_c4zyna56jjjrggqkyejnaxjxfu
   '@typescript-eslint/parser': 5.40.1_wyqvi574yv7oiwfeinomdzmc3m
   autoprefixer: 10.4.12_postcss@8.4.18
@@ -165,8 +165,8 @@ packages:
     resolution: {integrity: sha512-8BlgwD3fjAbtUUgvREjrq5okZSXMTU/Qla99RhTqGaFo+uOrUzguKrXvjeaD4GzxQZdQUNyTX9hKT0V7tX6TMw==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.522_svelte@3.52.0+vite@3.1.8:
-    resolution: {integrity: sha512-dVVrRPbXlAut4vg8kbCeZOjUZnYB7ZvDKp/yAx8InpDF0P1bvUDlc++DXFeMBdXX8bakTA3NGonWnDjqslCsZw==}
+  /@sveltejs/kit/1.0.0-next.523_svelte@3.52.0+vite@3.1.8:
+    resolution: {integrity: sha512-XT6UuU1vqgLJkZPTk5KL9QUtW2n+rTgT2WbVdzM/HVMq/ku/Jk9fHkkob5VVgDr7s6jM2t6PiqPbBlsk0iReaA==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -582,7 +582,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
   /cookie/0.5.0:
