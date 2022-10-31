@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@playwright/test': 1.27.1
-  '@sveltejs/adapter-static': 1.0.0-next.46
+  '@sveltejs/adapter-static': 1.0.0-next.47
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.41.0
   '@typescript-eslint/parser': 5.41.0
@@ -25,8 +25,8 @@ specifiers:
 
 devDependencies:
   '@playwright/test': 1.27.1
-  '@sveltejs/adapter-static': 1.0.0-next.46
-  '@sveltejs/kit': 1.0.0-next.528_svelte@3.52.0+vite@3.2.1
+  '@sveltejs/adapter-static': 1.0.0-next.47
+  '@sveltejs/kit': 1.0.0-next.529_svelte@3.52.0+vite@3.2.1
   '@typescript-eslint/eslint-plugin': 5.41.0_huremdigmcnkianavgfk3x6iou
   '@typescript-eslint/parser': 5.41.0_wyqvi574yv7oiwfeinomdzmc3m
   autoprefixer: 10.4.13_postcss@8.4.18
@@ -153,12 +153,12 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.46:
-    resolution: {integrity: sha512-8BlgwD3fjAbtUUgvREjrq5okZSXMTU/Qla99RhTqGaFo+uOrUzguKrXvjeaD4GzxQZdQUNyTX9hKT0V7tX6TMw==}
+  /@sveltejs/adapter-static/1.0.0-next.47:
+    resolution: {integrity: sha512-pYY9/FhJAIWB3BXnLoKXj5yMZjQjtD9ZsW8UOqKE51H5sbCNHu+wdBlh2CkW20ww4yhfYrlvLWioxij6DPRO9w==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.528_svelte@3.52.0+vite@3.2.1:
-    resolution: {integrity: sha512-zUtXzWU4+EgT9cw5s7laPM6jgLQatGui+pCxUyQzEpMwDAOeNWduYl4bEFCRyfQTSNzQK+nnpkR+e5X+TO8BHA==}
+  /@sveltejs/kit/1.0.0-next.529_svelte@3.52.0+vite@3.2.1:
+    resolution: {integrity: sha512-wM9Y38m8GVNT2YDQo41XNNa55OwTiGE+4fEuuhQnQY4nOSihXGllPsdIulnVsrxcSw9jKLkzwJdFr+i2y2y+OQ==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
