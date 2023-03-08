@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@playwright/test': 1.31.2
-  '@sveltejs/adapter-vercel': 2.3.0
+  '@sveltejs/adapter-vercel': 2.3.1
   '@sveltejs/kit': 1.10.0
   '@typescript-eslint/eslint-plugin': 5.54.1
   '@typescript-eslint/parser': 5.54.1
@@ -25,7 +25,7 @@ specifiers:
 
 devDependencies:
   '@playwright/test': 1.31.2
-  '@sveltejs/adapter-vercel': 2.3.0_@sveltejs+kit@1.10.0
+  '@sveltejs/adapter-vercel': 2.3.1_@sveltejs+kit@1.10.0
   '@sveltejs/kit': 1.10.0_svelte@3.55.1+vite@4.1.4
   '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
   '@typescript-eslint/parser': 5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -366,8 +366,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-vercel/2.3.0_@sveltejs+kit@1.10.0:
-    resolution: {integrity: sha512-LvSO/jO0rO2tFGNZhNtgzNniMobZmTXho83PouDgjKS3hW9CvIsn80RlRwT/Ay5Tag+kCHb0jViFuWktR9/OVw==}
+  /@sveltejs/adapter-vercel/2.3.1_@sveltejs+kit@1.10.0:
+    resolution: {integrity: sha512-EanZoRgqaZw4EaT3yGbkUtswYW3cQFVL/7aRunbiZ86mmDEyn6liuYNpmMCiqhgnz6hwhfJErpR7p8l71zcKRA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
