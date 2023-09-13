@@ -2,5 +2,6 @@
 node_modules
 /.vscode/
 /.svelte-kit
+/.vercel
 /package
 /build
