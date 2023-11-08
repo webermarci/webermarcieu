@@ -886,6 +886,13 @@
 </main>
 
 <style lang="postcss">
+	main {
+		@apply opacity-0;
+		animation-name: fadeIn;
+		animation-duration: 0.5s;
+		animation-fill-mode: forwards;
+	}
+
 	.underline-animation {
 		@apply underline;
 		@apply underline-offset-2;
@@ -921,6 +928,15 @@
 		@apply underline;
 		@apply underline-offset-2;
 		@apply decoration-neutral-400;
+	}
+
+	@keyframes fadeIn {
+		0% {
+		}
+
+		100% {
+			@apply opacity-100;
+		}
 	}
 
 	@keyframes underline-fade-quality {
