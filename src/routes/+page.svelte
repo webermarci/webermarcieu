@@ -31,24 +31,24 @@
 
 		<p class="mb-2 text-lg tracking-wide">
 			I'm a passionate software engineer with great emphasis on <span
-				class="underline-animation underline-animation-quality"
-				>quality</span
+				class="highlight-container-right quality-delay"
+				><span class="highlight">quality</span></span
 			>
 			and
-			<span class="underline-animation underline-animation-performance"
-				>performance</span
+			<span class="highlight-container-left performance-delay"
+				><span class="highlight">performance</span></span
 			>.
 		</p>
 
 		<p class="mb-2 text-lg tracking-wide">
 			I see myself as a genuine full-stack developer, well-versed in a
 			broad range of skills <span
-				class="underline-animation underline-animation-frontend"
-				>from frontend</span
+				class="highlight-container-left frontend-delay"
+				><span class="highlight">from frontend</span></span
 			>
 			development all the way
-			<span class="underline-animation underline-animation-embedded"
-				>to embedded</span
+			<span class="highlight-container-right embedded-delay"
+				><span class="highlight">to embedded</span></span
 			>
 			systems.
 		</p>
@@ -893,43 +893,6 @@
 		animation-fill-mode: forwards;
 	}
 
-	.underline-animation {
-		@apply underline;
-		@apply underline-offset-2;
-		@apply decoration-2;
-		@apply decoration-white;
-		@apply dark:decoration-neutral-900;
-		animation-duration: 1s;
-		animation-timing-function: ease-in;
-		animation-fill-mode: forwards;
-	}
-
-	.underline-animation-quality {
-		animation-name: underline-fade-quality;
-		animation-delay: 0.5s;
-	}
-
-	.underline-animation-performance {
-		animation-name: underline-fade-performance;
-		animation-delay: 1.5s;
-	}
-
-	.underline-animation-frontend {
-		animation-name: underline-fade-frontend;
-		animation-delay: 2.5s;
-	}
-
-	.underline-animation-embedded {
-		animation-name: underline-fade-embedded;
-		animation-delay: 3.5s;
-	}
-
-	.underlined-experience {
-		@apply underline;
-		@apply underline-offset-2;
-		@apply decoration-neutral-400;
-	}
-
 	@keyframes fadeIn {
 		0% {
 		}
@@ -939,39 +902,76 @@
 		}
 	}
 
-	@keyframes underline-fade-quality {
-		0% {
-		}
-
-		100% {
-			@apply decoration-emerald-500;
-		}
+	.underlined-experience {
+		@apply underline;
+		@apply underline-offset-2;
+		@apply decoration-2;
+		@apply decoration-emerald-500;
 	}
 
-	@keyframes underline-fade-performance {
-		0% {
-		}
-
-		100% {
-			@apply decoration-sky-500;
-		}
+	.highlight-container-left,
+	.highlight-container-right,
+	.highlight {
+		@apply relative;
 	}
 
-	@keyframes underline-fade-frontend {
-		0% {
-		}
-
-		100% {
-			@apply decoration-indigo-500;
-		}
+	.highlight-container-left,
+	.highlight-container-right {
+		@apply inline-block;
 	}
 
-	@keyframes underline-fade-embedded {
+	.highlight-container-left:before,
+	.highlight-container-right:before {
+		@apply absolute;
+		@apply block;
+		@apply w-0;
+		@apply h-[90%];
+		@apply ml-[-1px];
+		@apply mt-[2px];
+		@apply top-[-1px];
+		@apply left-[-1px];
+		@apply bg-emerald-100;
+		@apply dark:bg-emerald-600;
+		content: " ";
+		animation-name: highlight-animation;
+		animation-duration: 1.2s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-in-out;
+	}
+
+	.highlight-container-left:before {
+		border-radius: 23% 26% 20% 25%;
+		transform: rotate(1deg);
+	}
+
+	.highlight-container-right:before {
+		border-radius: 20% 25% 22% 24%;
+		transform: rotate(-1deg);
+	}
+
+	.quality-delay:before {
+		animation-delay: 0.5s;
+	}
+
+	.performance-delay:before {
+		animation-delay: 1.5s;
+	}
+
+	.frontend-delay:before {
+		animation-delay: 2.5s;
+	}
+
+	.embedded-delay:before {
+		animation-delay: 3.5s;
+	}
+
+	@keyframes highlight-animation {
 		0% {
+			@apply w-0;
 		}
 
 		100% {
-			@apply decoration-cyan-500;
+			@apply w-[105%];
 		}
 	}
 </style>
