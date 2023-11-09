@@ -966,7 +966,7 @@
 		@apply top-[-1px];
 		@apply left-[-1px];
 		@apply bg-indigo-100;
-		@apply dark:bg-indigo-500;
+		@apply dark:bg-indigo-600;
 		content: " ";
 	}
 
