@@ -31,26 +31,25 @@
 
 		<p class="mb-2 text-lg tracking-wide">
 			I'm a passionate software engineer with great emphasis on <span
-				class="highlight-container-right quality-delay"
+				class="green-highlight-container-right quality-animation"
 				><span class="highlight">quality</span></span
 			>
 			and
-			<span class="highlight-container-left performance-delay"
-				><span class="highlight">performance</span></span
-			>.
+			<span class="green-highlight-container-left performance-animation"
+				><span class="highlight">performance.</span></span
+			>
 		</p>
 
 		<p class="mb-2 text-lg tracking-wide">
 			I see myself as a genuine full-stack developer, well-versed in a
 			broad range of skills <span
-				class="highlight-container-left frontend-delay"
-				><span class="highlight">from frontend</span></span
+				class="green-highlight-container-left frontend-animation"
+				><span class="highlight">from front-end</span></span
 			>
 			development all the way
-			<span class="highlight-container-right embedded-delay"
-				><span class="highlight">to embedded</span></span
+			<span class="green-highlight-container-right embedded-animation"
+				><span class="highlight">to embedded.</span></span
 			>
-			systems.
 		</p>
 
 		<p class="mb-4 text-lg tracking-wide">
@@ -97,15 +96,17 @@
 
 				<div class="mb-4">
 					<p class="text-lg tracking-wide">
-						This is a <span class="underlined-experience"
-							>passion project</span
+						This is a <span class="indigo-highlight-container-left"
+							><span class="highlight">passion project</span
+							></span
 						>
 						that is currently in it's initial stage, drawing upon the
 						expertise I've accumulated during my years of experience
 						in the
-						<span class="underlined-experience"
-							>parking industry</span
-						>.
+						<span class="indigo-highlight-container-right"
+							><span class="highlight">parking industry.</span
+							></span
+						>
 					</p>
 				</div>
 
@@ -197,8 +198,9 @@
 				<div class="mb-4">
 					<p class="mb-2 text-lg tracking-wide">
 						Initially conceived as a straightforward <span
-							class="underlined-experience"
-							>visualization project</span
+							class="indigo-highlight-container-left"
+							><span class="highlight">visualization project</span
+							></span
 						>, it evolved into something more substantial.
 					</p>
 
@@ -206,16 +208,23 @@
 						The most noteworthy achievement in the project was
 						discovering an efficient way to count and sum the sizes
 						of thousands of terabytes of small files. Using a
-						combination of <span class="underlined-experience"
-							>Go</span
+						combination of <span
+							class="indigo-highlight-container-left"
+							><span class="highlight">Go</span></span
 						>
-						and <span class="underlined-experience">Rust</span> in
-						strategic areas, we were able to reduce the processing
+						and
+						<span class="indigo-highlight-container-right"
+							><span class="highlight">Rust</span></span
+						>
+						in strategic areas, we were able to reduce the processing
 						time
-						<span class="underlined-experience">from 3 days</span>
+						<span class="indigo-highlight-container-left"
+							><span class="highlight">from 3 days</span></span
+						>
 						with standard Unix tools
-						<span class="underlined-experience"
-							>to just 4 hours</span
+						<span class="indigo-highlight-container-right"
+							><span class="highlight">to just 4 hours</span
+							></span
 						> with my solution.
 					</p>
 				</div>
@@ -321,17 +330,20 @@
 					<p class="mb-2 text-lg tracking-wide">
 						The primary client of the company settled the debt,
 						leading to the acquisition of the company. This is how I <span
-							class="underlined-experience">re-engaged</span
+							class="indigo-highlight-container-right"
+							><span class="highlight">re-engaged</span></span
 						>
 						with the project, but this time in the capacity of a
-						<span class="underlined-experience">contractor</span>.
+						<span class="indigo-highlight-container-left"
+							><span class="highlight">contractor.</span></span
+						>
 					</p>
 
 					<p class="mb-2 text-lg tracking-wide">
 						During this period, my focus was solely on <span
-							class="underlined-experience">IoT</span
-						>, <span class="underlined-experience">embedded</span> and
-						all it's related components and aspects.
+							class="indigo-highlight-container-left"
+							><span class="highlight">IoT, embedded</span></span
+						> and all it's related components and aspects.
 					</p>
 
 					<p class="text-lg tracking-wide">
@@ -488,24 +500,32 @@
 				<div class="mb-4">
 					<p class="mb-2 text-lg tracking-wide">
 						Together with a colleague from Rollet, we started to
-						develop a <span class="underlined-experience"
-							>sensor platform</span
-						>.
+						develop a <span class="indigo-highlight-container-left"
+							><span class="highlight">sensor platform.</span
+							></span
+						>
 					</p>
 
 					<p class="mb-2 text-lg tracking-wide">
 						Our primary focus was on <span
-							class="underlined-experience"
-							>agricultural monitoring</span
+							class="indigo-highlight-container-left"
+							><span class="highlight"
+								>agricultural monitoring</span
+							></span
 						>, which required us to design sensors that could
 						operate on
-						<span class="underlined-experience">solar energy</span>
+						<span class="indigo-highlight-container-left"
+							><span class="highlight">solar energy</span></span
+						>
 						and transmit data to a central unit from distances spanning
 						hundreds of meters. Through the use of periodic
-						<span class="underlined-experience">deep sleep</span>
+						<span class="indigo-highlight-container-right"
+							><span class="highlight">deep sleep</span></span
+						>
 						cycles and
-						<span class="underlined-experience">LoRa</span> technology,
-						we achieved our goal successfully.
+						<span class="indigo-highlight-container-left"
+							><span class="highlight">LoRa</span></span
+						> technology, we achieved our goal successfully.
 					</p>
 				</div>
 
@@ -597,21 +617,29 @@
 				<div class="mb-4">
 					<p class="mb-2 text-lg tracking-wide">
 						When I joined Rollet as a <span
-							class="underlined-experience">full-stack</span
+							class="indigo-highlight-container-right"
+							><span class="highlight">full-stack</span></span
 						>
 						developer, the company was still in it's early stages as
 						a
-						<span class="underlined-experience">startup</span>.
+						<span class="indigo-highlight-container-left"
+							><span class="highlight">startup.</span></span
+						>
 					</p>
 
 					<p class="mb-2 text-lg tracking-wide">
 						Over the course of my time there, I handled a wide array
-						of development tasks, spanning
-						<span class="underlined-experience"
-							>from user interface system design to developing IoT
-							components</span
-						>. As we approached the end, my main area of
-						concentration shifted to IoT development and monitoring.
+						of development tasks, spanning from
+						<span class="indigo-highlight-container-right"
+							><span class="highlight">user interface system</span
+							></span
+						>
+						design to developing
+						<span class="indigo-highlight-container-left"
+							><span class="highlight">IoT components.</span
+							></span
+						> As we approached the end, my main area of concentration
+						shifted to IoT development and monitoring.
 					</p>
 
 					<p class="text-lg tracking-wide">
@@ -780,18 +808,20 @@
 				<div class="mb-4">
 					<p class="mb-2 text-lg tracking-wide">
 						I was responsible for the development of the company's <span
-							class="underlined-experience"
-							>internal HR system</span
-						>, which served as my initial job in the field.
+							class="indigo-highlight-container-left"
+							><span class="highlight">internal HR system,</span
+							></span
+						> which served as my initial job in the field.
 					</p>
 
 					<p class="text-lg tracking-wide">
 						It proved to be a valuable experience as I primarily
 						worked autonomously on the technical aspects while also
 						contributing to the
-						<span class="underlined-experience"
-							>product development</span
-						>.
+						<span class="indigo-highlight-container-right"
+							><span class="highlight">product development.</span
+							></span
+						>
 					</p>
 				</div>
 
@@ -893,19 +923,24 @@
 		@apply decoration-emerald-500;
 	}
 
-	.highlight-container-left,
-	.highlight-container-right,
+	.green-highlight-container-left,
+	.green-highlight-container-right,
+	.indigo-highlight-container-left,
+	.indigo-highlight-container-right,
 	.highlight {
 		@apply relative;
 	}
 
-	.highlight-container-left,
-	.highlight-container-right {
+	.green-highlight-container-left,
+	.green-highlight-container-right,
+	.indigo-highlight-container-left,
+	.indigo-highlight-container-right {
 		@apply inline-block;
 	}
 
-	.highlight-container-left:before,
-	.highlight-container-right:before {
+	.green-highlight-container-left:before,
+	.green-highlight-container-right:before {
+		@apply -z-50;
 		@apply absolute;
 		@apply block;
 		@apply w-0;
@@ -917,36 +952,66 @@
 		@apply bg-emerald-100;
 		@apply dark:bg-emerald-600;
 		content: " ";
-		animation-name: highlight-animation;
-		animation-duration: 1.2s;
-		animation-fill-mode: forwards;
-		animation-timing-function: ease-in-out;
 	}
 
-	.highlight-container-left:before {
+	.indigo-highlight-container-left:before,
+	.indigo-highlight-container-right:before {
+		@apply -z-50;
+		@apply absolute;
+		@apply block;
+		@apply w-[105%];
+		@apply h-[90%];
+		@apply ml-[-1px];
+		@apply mt-[2px];
+		@apply top-[-1px];
+		@apply left-[-1px];
+		@apply bg-indigo-100;
+		@apply dark:bg-indigo-500;
+		content: " ";
+	}
+
+	.green-highlight-container-left:before,
+	.indigo-highlight-container-left:before {
 		border-radius: 23% 26% 20% 25%;
 		transform: rotate(1deg);
 	}
 
-	.highlight-container-right:before {
+	.green-highlight-container-right:before,
+	.indigo-highlight-container-right:before {
 		border-radius: 20% 25% 22% 24%;
 		transform: rotate(-1deg);
 	}
 
-	.quality-delay:before {
+	.quality-animation:before {
+		animation-name: highlight-animation;
+		animation-duration: 1.2s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-in-out;
 		animation-delay: 0.5s;
 	}
 
-	.performance-delay:before {
-		animation-delay: 1.6s;
+	.performance-animation:before {
+		animation-name: highlight-animation;
+		animation-duration: 1.2s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-in-out;
+		animation-delay: 1.8s;
 	}
 
-	.frontend-delay:before {
-		animation-delay: 2.7s;
+	.frontend-animation:before {
+		animation-name: highlight-animation;
+		animation-duration: 1.2s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-in-out;
+		animation-delay: 3.1s;
 	}
 
-	.embedded-delay:before {
-		animation-delay: 3.8s;
+	.embedded-animation:before {
+		animation-name: highlight-animation;
+		animation-duration: 1.2s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-in-out;
+		animation-delay: 4.4s;
 	}
 
 	@keyframes highlight-animation {
