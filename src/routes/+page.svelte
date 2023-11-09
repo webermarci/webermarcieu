@@ -890,7 +890,7 @@
 		@apply underline;
 		@apply underline-offset-2;
 		@apply decoration-2;
-		@apply decoration-indigo-400;
+		@apply decoration-emerald-500;
 	}
 
 	.highlight-container-left,
@@ -938,15 +938,15 @@
 	}
 
 	.performance-delay:before {
-		animation-delay: 1.5s;
+		animation-delay: 1.6s;
 	}
 
 	.frontend-delay:before {
-		animation-delay: 2.5s;
+		animation-delay: 2.7s;
 	}
 
 	.embedded-delay:before {
-		animation-delay: 3.5s;
+		animation-delay: 3.8s;
 	}
 
 	@keyframes highlight-animation {
