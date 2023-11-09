@@ -644,8 +644,8 @@
 					</p>
 
 					<p class="text-lg tracking-wide">
-						Because of the impact of COVID-19 and poor management,
-						the company faced bankruptcy, prompting my departure.
+						Because of the impact of COVID-19, the company faced
+						bankruptcy, prompting my departure.
 					</p>
 				</div>
 
