@@ -891,6 +891,7 @@
 		animation-name: fadeIn;
 		animation-duration: 0.5s;
 		animation-fill-mode: forwards;
+		animation-timing-function: ease-in-out;
 	}
 
 	@keyframes fadeIn {
