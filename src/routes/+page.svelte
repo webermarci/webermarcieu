@@ -27,7 +27,7 @@
 	</section>
 
 	<section class="mb-8">
-		<h1 class="mb-2 text-2xl">Hi, I'm Marci. 👋</h1>
+		<h1 class="mb-2 text-2xl">Hey, I'm Marci. 👋</h1>
 
 		<p class="mb-2 text-lg tracking-wide">
 			I'm a passionate software engineer with great emphasis on <span
@@ -199,9 +199,10 @@
 					<p class="mb-2 text-lg tracking-wide">
 						Initially conceived as a straightforward <span
 							class="indigo-highlight-container-left"
-							><span class="highlight">visualization project</span
+							><span class="highlight"
+								>visualization project,</span
 							></span
-						>, it evolved into something more substantial.
+						> it evolved into something more substantial.
 					</p>
 
 					<p class="text-lg tracking-wide">
@@ -510,10 +511,10 @@
 						Our primary focus was on <span
 							class="indigo-highlight-container-left"
 							><span class="highlight"
-								>agricultural monitoring</span
+								>agricultural monitoring,</span
 							></span
-						>, which required us to design sensors that could
-						operate on
+						>
+						which required us to design sensors that could operate on
 						<span class="indigo-highlight-container-left"
 							><span class="highlight">solar energy</span></span
 						>
@@ -916,13 +917,6 @@
 </main>
 
 <style lang="postcss">
-	.underlined-experience {
-		@apply underline;
-		@apply underline-offset-2;
-		@apply decoration-2;
-		@apply decoration-emerald-500;
-	}
-
 	.green-highlight-container-left,
 	.green-highlight-container-right,
 	.indigo-highlight-container-left,
