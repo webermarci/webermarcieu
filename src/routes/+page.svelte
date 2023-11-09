@@ -208,19 +208,15 @@
 					<p class="text-lg tracking-wide">
 						The most noteworthy achievement in the project was
 						discovering an efficient way to count and sum the sizes
-						of thousands of terabytes of small files. Using a
+						of a thousand terabytes of small files. Using a
 						combination of <span
 							class="indigo-highlight-container-left"
-							><span class="highlight">Go</span></span
-						>
-						and
-						<span class="indigo-highlight-container-right"
-							><span class="highlight">Rust</span></span
+							><span class="highlight">Go and Rust</span></span
 						>
 						in strategic areas, we were able to reduce the processing
 						time
 						<span class="indigo-highlight-container-left"
-							><span class="highlight">from 3 days</span></span
+							><span class="highlight">from 2 days</span></span
 						>
 						with standard Unix tools
 						<span class="indigo-highlight-container-right"
@@ -978,34 +974,34 @@
 
 	.quality-animation:before {
 		animation-name: highlight-animation;
-		animation-duration: 1.2s;
+		animation-duration: 0.9s;
 		animation-fill-mode: forwards;
 		animation-timing-function: ease-in-out;
-		animation-delay: 0.5s;
+		animation-delay: 0.3s;
 	}
 
 	.performance-animation:before {
 		animation-name: highlight-animation;
-		animation-duration: 1.2s;
+		animation-duration: 1s;
 		animation-fill-mode: forwards;
 		animation-timing-function: ease-in-out;
-		animation-delay: 1.8s;
+		animation-delay: 1.6s;
 	}
 
 	.frontend-animation:before {
 		animation-name: highlight-animation;
-		animation-duration: 1.2s;
+		animation-duration: 1.1s;
 		animation-fill-mode: forwards;
 		animation-timing-function: ease-in-out;
-		animation-delay: 3.1s;
+		animation-delay: 2.8s;
 	}
 
 	.embedded-animation:before {
 		animation-name: highlight-animation;
-		animation-duration: 1.2s;
+		animation-duration: 1s;
 		animation-fill-mode: forwards;
 		animation-timing-function: ease-in-out;
-		animation-delay: 4.4s;
+		animation-delay: 4s;
 	}
 
 	@keyframes highlight-animation {
