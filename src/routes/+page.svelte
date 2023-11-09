@@ -886,28 +886,11 @@
 </main>
 
 <style lang="postcss">
-	main {
-		@apply opacity-0;
-		animation-name: fadeIn;
-		animation-duration: 0.5s;
-		animation-fill-mode: forwards;
-		animation-timing-function: ease-in-out;
-	}
-
-	@keyframes fadeIn {
-		0% {
-		}
-
-		100% {
-			@apply opacity-100;
-		}
-	}
-
 	.underlined-experience {
 		@apply underline;
 		@apply underline-offset-2;
 		@apply decoration-2;
-		@apply decoration-emerald-500;
+		@apply decoration-indigo-400;
 	}
 
 	.highlight-container-left,
