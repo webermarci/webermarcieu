@@ -319,7 +319,7 @@
 				<div class="mb-2 flex items-center gap-2">
 					<p class="text-xl font-medium tracking-wider">Rollet</p>
 					<p class="text-neutral-500 dark:text-neutral-400">
-						(2021 - 2023)
+						(2021 - Ongoing)
 					</p>
 				</div>
 
