@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   posthog-js:
-    specifier: 1.95.1
-    version: 1.95.1
+    specifier: 1.96.0
+    version: 1.96.0
 
 devDependencies:
   '@sveltejs/adapter-static':
@@ -2314,8 +2314,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /posthog-js@1.95.1:
-    resolution: {integrity: sha512-79HPLoBqENBEEGFhn+hueKliYH66Qbu4WcRTEd8WaqtvqHrK9qAQkcrShZNkg1V5vM4kHp0iMIkJYBXg1sq06Q==}
+  /posthog-js@1.96.0:
+    resolution: {integrity: sha512-nutEP3UbwjPt1a78KwBbdNBMhAY30lLjYXbBOPZ/juB9NDklmSqLF+lWImPcf6+rlXEhIboSr5sdTAF/R+Dasg==}
     dependencies:
       fflate: 0.4.8
     dev: false
