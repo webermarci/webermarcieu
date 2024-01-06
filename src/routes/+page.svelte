@@ -940,7 +940,7 @@
 		@apply top-[-1px];
 		@apply left-[-1px];
 		@apply bg-emerald-100;
-		@apply dark:bg-emerald-600;
+		@apply dark:bg-emerald-700;
 		content: " ";
 	}
 
@@ -956,7 +956,7 @@
 		@apply top-[-1px];
 		@apply left-[-1px];
 		@apply bg-indigo-100;
-		@apply dark:bg-indigo-600;
+		@apply dark:bg-indigo-700;
 		content: " ";
 	}
 
