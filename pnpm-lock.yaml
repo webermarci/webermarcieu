@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       posthog-js:
-        specifier: 1.139.0
-        version: 1.139.0
+        specifier: 1.143.0
+        version: 1.143.0
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: 3.0.1
@@ -1437,8 +1437,8 @@ packages:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.139.0:
-    resolution: {integrity: sha512-FuYlxQFO0Dq5X1/bFEM8F+NgOqZiVh4fPVHHeOTWMkqVP+pCnODQitbtW0hgT0/EE665w0xpZBk93YavaZRhzQ==}
+  posthog-js@1.143.0:
+    resolution: {integrity: sha512-8OPMBxmyDZJ9eBcmVgKob5zHVHIm0oIvNYhbExztPbZLV1v/xeCKeytZsH61w6F/Ey7WGb4RdvP6rwomv1MajA==}
 
   preact@10.22.0:
     resolution: {integrity: sha512-RRurnSjJPj4rp5K6XoP45Ui33ncb7e4H7WiOHVpjbkvqvA3U+N8Z6Qbo0AE6leGYBV66n8EhEaFixvIu3SkxFw==}
@@ -1796,6 +1796,9 @@ packages:
     peerDependenciesMeta:
       vite:
         optional: true
+
+  web-vitals@4.2.1:
+    resolution: {integrity: sha512-U6bAxeudnhDqcXNl50JC4hLlqox9DZnngxfISZm3DMZnonW35xtJOVUc091L+DOY+6hVZVpKXoiCP0RiT6339Q==}
 
   which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
@@ -3101,10 +3104,11 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  posthog-js@1.139.0:
+  posthog-js@1.143.0:
     dependencies:
       fflate: 0.4.8
       preact: 10.22.0
+      web-vitals: 4.2.1
 
   preact@10.22.0: {}
 
@@ -3423,6 +3427,8 @@ snapshots:
   vitefu@0.2.5(vite@5.2.13):
     optionalDependencies:
       vite: 5.2.13
+
+  web-vitals@4.2.1: {}
 
   which@2.0.2:
     dependencies:
