@@ -1,7 +1,5 @@
-<script lang="ts">
+<script>
 import "../app.postcss";
-import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
-injectSpeedInsights();
 </script>
 
 <slot />

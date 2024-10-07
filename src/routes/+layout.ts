@@ -1,5 +1,6 @@
-import posthog from 'posthog-js'
 import { browser } from '$app/environment';
+import posthog from 'posthog-js'
+import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
 
 export const prerender = true;
 
@@ -11,5 +12,6 @@ export const load = async () => {
                 api_host: 'https://eu.posthog.com'
             }
         )
+        injectSpeedInsights();
     }
 };
