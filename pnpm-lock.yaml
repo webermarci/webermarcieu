@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.12
         version: 1.0.12(@sveltejs/kit@2.7.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.269)(vite@5.4.9))(svelte@5.0.0-next.269)(vite@5.4.9))(svelte@5.0.0-next.269)
       posthog-js:
-        specifier: 1.170.1
-        version: 1.170.1
+        specifier: 1.174.0
+        version: 1.174.0
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: 3.0.5
@@ -657,6 +657,9 @@ packages:
   cookie@0.6.0:
     resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
     engines: {node: '>= 0.6'}
+
+  core-js@3.38.1:
+    resolution: {integrity: sha512-OP35aUorbU3Zvlx7pjsFdu1rGNnD4pgw/CWoYzRY3t2EzoVT7shKHY1dlAy3f41cGIO7ZDPQimhGFTlEYkG/Hw==}
 
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
@@ -1424,8 +1427,8 @@ packages:
     resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.170.1:
-    resolution: {integrity: sha512-LReG76Sb2c0PlJZT5DSyM8GBU40d1fW/gqukwhjWYD3P8+98GJI8+e2qjVic4MI1PCZUkVPYxbP/bXkZQWhskg==}
+  posthog-js@1.174.0:
+    resolution: {integrity: sha512-60qCn8bloCxVc3oBQ/JP77J40J7UD+cRGUfYXJdsqjUH82s2wmCx4MicuNrcn9Hd2dHM25nXmOAMLO5iwSq9gg==}
 
   preact@10.24.2:
     resolution: {integrity: sha512-1cSoF0aCC8uaARATfrlz4VCBqE8LwZwRfLgkxJOQwAlQt6ayTmi0D9OF7nXid1POI5SZidFuG9CnlXbDfLqY/Q==}
@@ -2261,6 +2264,8 @@ snapshots:
 
   cookie@0.6.0: {}
 
+  core-js@3.38.1: {}
+
   cross-spawn@7.0.3:
     dependencies:
       path-key: 3.1.1
@@ -3005,8 +3010,9 @@ snapshots:
       picocolors: 1.1.0
       source-map-js: 1.2.1
 
-  posthog-js@1.170.1:
+  posthog-js@1.174.0:
     dependencies:
+      core-js: 3.38.1
       fflate: 0.4.8
       preact: 10.24.2
       web-vitals: 4.2.3
