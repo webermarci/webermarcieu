@@ -37,6 +37,6 @@
   "type": "module",
   "dependencies": {
     "@vercel/speed-insights": "^1.0.12",
-    "posthog-js": "1.184.2"
+    "posthog-js": "1.186.1"
   }
 }
