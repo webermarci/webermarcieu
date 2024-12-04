@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.12
         version: 1.1.0(@sveltejs/kit@2.8.5(@sveltejs/vite-plugin-svelte@4.0.2(svelte@5.6.1)(vite@5.4.11))(svelte@5.6.1)(vite@5.4.11))(svelte@5.6.1)
       posthog-js:
-        specifier: 1.194.2
-        version: 1.194.2
+        specifier: 1.194.3
+        version: 1.194.3
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: 3.0.6
@@ -1449,8 +1449,8 @@ packages:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.194.2:
-    resolution: {integrity: sha512-UVFVvx6iJMEjHo+N/HmPDK4zjkVY8m+G13jTQmvHMtByfyn/fH6JhOz/ph+gtmvXPI03130y1qrwwgPIZ3ty8A==}
+  posthog-js@1.194.3:
+    resolution: {integrity: sha512-/YFpBMqZzRpywa07QeoaIojdrUDijFajT4gZBSCFUBuZA5BN5xr5S1spsvtpT7E4RjkQSVgRvUngI4W19csgQw==}
 
   preact@10.25.0:
     resolution: {integrity: sha512-6bYnzlLxXV3OSpUxLdaxBmE7PMOu0aR3pG6lryK/0jmvcDFPlcXGQAt5DpK3RITWiDrfYZRI0druyaK/S9kYLg==}
@@ -3032,7 +3032,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-js@1.194.2:
+  posthog-js@1.194.3:
     dependencies:
       core-js: 3.39.0
       fflate: 0.4.8
