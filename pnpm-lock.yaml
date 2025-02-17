@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       posthog-js:
-        specifier: 1.218.2
-        version: 1.218.2
+        specifier: 1.219.1
+        version: 1.219.1
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: 3.0.8
@@ -1428,8 +1428,8 @@ packages:
     resolution: {integrity: sha512-MjOadfU3Ys9KYoX0AdkBlFEF1Vx37uCCeN4ZHnmwm9FfpbsGWMZeBLMmmpY+6Ocqod7mkdZ0DT31OlbsFrLlkA==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.218.2:
-    resolution: {integrity: sha512-C3IRqrdeYdFPiUmj2wI+k+Skr56Co9vhXufv3LirNQC6kAc5FVq//VQVK1i4Xf8PlZYsaqREl0QI5M/CihU3wA==}
+  posthog-js@1.219.1:
+    resolution: {integrity: sha512-38hjrycka7pP8gcMXf4y+c062eWSFfEdECa6VaK6eHcKqaYD+L6nck5aqTdpF4R5b0M55GPaqLntsJpK0gG/tw==}
 
   preact@10.26.0:
     resolution: {integrity: sha512-6ugi/Mb7lyV5RA6KlnijFyDLMU253i7L0RRiObIzDoqj59KT9iTeNJbA/YGw6M7jP4vxaab0DOA8DgodTOA6EQ==}
@@ -3025,7 +3025,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-js@1.218.2:
+  posthog-js@1.219.1:
     dependencies:
       core-js: 3.40.0
       fflate: 0.4.8
