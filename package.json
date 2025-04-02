@@ -36,6 +36,6 @@
   },
   "type": "module",
   "dependencies": {
-    "posthog-js": "1.234.4"
+    "posthog-js": "1.234.6"
   }
 }
