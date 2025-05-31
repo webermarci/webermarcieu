@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       posthog-js:
-        specifier: 1.248.1
-        version: 1.248.1
+        specifier: 1.249.0
+        version: 1.249.0
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: 3.0.8
@@ -1438,8 +1438,8 @@ packages:
     resolution: {integrity: sha512-QSa9EBe+uwlGTFmHsPKokv3B/oEMQZxfqW0QqNCyhpa6mB1afzulwn8hihglqAb2pOw+BJgNlmXQ8la2VeHB7w==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.248.1:
-    resolution: {integrity: sha512-2KBbvvLbiNqQdoEgjczZJ7im5QT8zi0Q29a8AmfXs0UGyaYxmgqPCrE1elQmGBuAm1S3T+Xw2D6Ff0VQPXE6Rw==}
+  posthog-js@1.249.0:
+    resolution: {integrity: sha512-qR1PZPBb8Zc57ZYr1NtPbSJ/RHj9Gnr8NDG5bYDspzyol3KL3kwz+pk4K4ZLyjG/Gb2DyrgrEvr3CtSIlfui/w==}
     peerDependencies:
       '@rrweb/types': 2.0.0-alpha.17
       rrweb-snapshot: 2.0.0-alpha.17
@@ -3054,7 +3054,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-js@1.248.1:
+  posthog-js@1.249.0:
     dependencies:
       core-js: 3.42.0
       fflate: 0.4.8
